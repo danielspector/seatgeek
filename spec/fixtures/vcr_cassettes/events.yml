@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events/2101779
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:06:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"98ba9cc390dbeaab0f80f62842a35bcc64a60163"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '361798744'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"links":[],"id":2101779,"stats":{"listing_count":1976,"average_price":443.0,"lowest_price":168.0,"highest_price":11503.0},"title":"San
+        Francisco 49ers at New York Giants","announce_date":"2014-04-24T00:00:00","score":0.87076,"date_tbd":false,"type":"nfl","datetime_local":"2014-11-16T13:00:00","visible_until_utc":"2014-11-16T22:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"performers":[{"away_team":true,"stats":{"event_count":12},"name":"San
+        Francisco 49ers","short_name":"49ers","url":"https://seatgeek.com/san-francisco-49ers-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/san-francisco-49ers-5f87c7/2076/huge.jpg","home_venue_id":58670,"slug":"san-francisco-49ers","score":0.85232,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/san-francisco-49ers-5f87c7/2076/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2076/san-francisco-49ers-76dabf/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2076/san-francisco-49ers-6055e7/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2076/san-francisco-49ers-2aa751/small.jpg"},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2076},{"stats":{"event_count":8},"name":"New
+        York Giants","short_name":"Giants","url":"https://seatgeek.com/new-york-giants-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","home_team":true,"home_venue_id":1587,"primary":true,"score":0.8526,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-4ce91d/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-638094/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-88909c/small.jpg"},"slug":"new-york-giants","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2079}],"url":"https://seatgeek.com/49ers-at-giants-tickets/11-16-2014-east-rutherford-new-jersey-metlife-stadium/nfl/2101779/","created_at":"2014-04-24T00:00:00","venue":{"city":"East
+        Rutherford","name":"MetLife Stadium","extended_address":"East Rutherford,
+        NJ 07073","url":"https://seatgeek.com/venues/metlife-stadium/tickets/","country":"US","display_location":"East
+        Rutherford, NJ","links":[],"slug":"metlife-stadium","state":"NJ","score":0.95762,"postal_code":"07073","location":{"lat":40.8345,"lon":-74.0984},"address":"1
+        MetLife Stadium Dr.","timezone":"America/New_York","id":1587},"short_title":"49ers
+        at Giants","datetime_utc":"2014-11-16T18:00:00","datetime_tbd":false}'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:06:27 GMT
+recorded_with: VCR 2.9.2

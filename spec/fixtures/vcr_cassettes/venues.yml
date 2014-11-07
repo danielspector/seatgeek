@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/2513
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:12:42 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '69'
+      Connection:
+      - keep-alive
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - '519358407'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+    body:
+      encoding: UTF-8
+      string: '<html><title>404: Not Found</title><body>404: Not Found</body></html>'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:12:43 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/venues/2513
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:13:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"d009a2d62aa4dab6713581308cc2773118252f8a"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '519359776'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"city":"New York","name":"The Theater at Madison Square Garden","extended_address":"New
+        York, NY 10001","url":"https://seatgeek.com/venues/the-theater-at-madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"the-theater-at-madison-square-garden","state":"NY","score":0.64818,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":2513}'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:13:27 GMT
+recorded_with: VCR 2.9.2

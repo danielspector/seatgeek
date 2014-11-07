@@ -1,0 +1,324 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:04:36 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3113'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"915ba04db05dc3d36e4aeb5d4fb4126a2ea357e7"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 519343114 519292953
+      Age:
+      - '1601'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":126245,"geolocation":null,"took":8,"page":1},"events":[{"links":[],"id":2235271,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Cash","announce_date":"2014-07-06T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-07T23:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":7},"name":"Cash","short_name":"Cash","url":"https://seatgeek.com/cash-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"cash","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":24219,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/cash-tickets/biberach-stadthalle-biberach-2014-11-07-3-30-am/concert/2235271/","created_at":"2014-07-06T00:00:00","venue":{"city":"Biberach","name":"Stadthalle
+        - Biberach","extended_address":"Biberach, Germany","url":"https://seatgeek.com/venues/stadthalle-biberach/tickets/","country":"Germany","display_location":"Biberach,
+        Germany","links":[],"slug":"stadthalle-biberach","state":"Baden-wurttemberg","score":0,"postal_code":"88400","location":{"lat":48.29,"lon":10.22},"address":"Marktplatz
+        7/1","timezone":"Europe/Berlin","id":30888},"short_title":"Cash","datetime_utc":"2014-11-07T02:30:00","datetime_tbd":false},{"links":[],"id":2350063,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Acid
+        Baby Jesus","announce_date":"2014-10-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T00:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Acid
+        Baby Jesus","short_name":"Acid Baby Jesus","url":"https://seatgeek.com/acid-baby-jesus-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"acid-baby-jesus","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":82149,"genres":[{"slug":"garage-rock","primary":true,"name":"garage-rock"}]}],"url":"https://seatgeek.com/acid-baby-jesus-tickets/london-the-shacklewell-arms-2014-11-07-3-30-am/concert/2350063/","created_at":"2014-10-01T00:00:00","venue":{"city":"London","name":"The
+        Shacklewell Arms","extended_address":"London, UK","url":"https://seatgeek.com/venues/the-shacklewell-arms/tickets/","country":"UK","display_location":"London,
+        UK","links":[],"slug":"the-shacklewell-arms","state":"Hck","score":0,"postal_code":"E8
+        2EB","location":{"lat":51.5508,"lon":-0.06827},"address":"71 Shacklewell Lane","timezone":"Europe/London","id":10723},"short_title":"Acid
+        Baby Jesus","datetime_utc":"2014-11-07T03:30:00","datetime_tbd":false},{"links":[],"id":2055902,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Tab
+        Benoit","announce_date":"2014-03-21T00:00:00","score":0.31634,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":15},"name":"Tab
+        Benoit","short_name":"Tab Benoit","url":"https://seatgeek.com/tab-benoit-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg","home_venue_id":null,"primary":true,"score":0.33933,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg"},"slug":"tab-benoit","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":10629,"genres":[{"slug":"blues","primary":true,"name":"blues"}]}],"url":"https://seatgeek.com/tab-benoit-tickets/gainesville-florida-university-of-florida-2014-11-07-3-30-am/concert/2055902/","created_at":"2014-03-21T00:00:00","venue":{"city":"Gainesville","name":"University
+        Of Florida","extended_address":"Gainesville, FL 32611","url":"https://seatgeek.com/venues/university-of-florida/tickets/","country":"US","display_location":"Gainesville,
+        FL","links":[],"slug":"university-of-florida","state":"FL","score":0,"postal_code":"32611","location":{"lat":29.6453,"lon":-82.3464},"address":"2151
+        W. University Ave.","timezone":"America/New_York","id":7009},"short_title":"Tab
+        Benoit","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2009315,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Balsam
+        Range","announce_date":"2014-02-16T16:25:20","score":0.20131,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Balsam
+        Range","short_name":"Balsam Range","url":"https://seatgeek.com/balsam-range-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.23116,"images":{},"slug":"balsam-range","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":100650}],"url":"https://seatgeek.com/balsam-range-tickets/palatka-florida-rodeheaver-boys-ranch-2014-11-07-3-30-am/concert/2009315/","created_at":"2014-02-16T16:25:20","venue":{"city":"Palatka","name":"Rodeheaver
+        Boys Ranch","extended_address":"Palatka, FL 32193","url":"https://seatgeek.com/venues/rodeheaver-boys-ranch/tickets/","country":"US","display_location":"Palatka,
+        FL","links":[],"slug":"rodeheaver-boys-ranch","state":"FL","score":0,"postal_code":"32193","location":{"lat":29.5405,"lon":-81.7117},"address":"380
+        Boys Ranch Rd.","timezone":"America/New_York","id":15274},"short_title":"Balsam
+        Range","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2082777,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jo
+        Koy","announce_date":"2014-04-08T00:00:00","score":0.37309,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":11},"name":"Jo
+        Koy","short_name":"Jo Koy","url":"https://seatgeek.com/jo-koy-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jo-koy-c5cd20/5282/huge.jpg","home_venue_id":null,"primary":true,"score":0.3927,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jo-koy-c5cd20/5282/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-245194/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-6949b5/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-b78b91/small.jpg"},"slug":"jo-koy","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5282}],"url":"https://seatgeek.com/jo-koy-tickets/comedy/2014-11-07-3-30-am/2082777/","created_at":"2014-04-08T00:00:00","venue":{"city":"Toledo","name":"Funny
+        Bone","extended_address":"Toledo, OH ","url":"https://seatgeek.com/venues/funny-bone-4/tickets/","country":"US","display_location":"Toledo,
+        OH","links":[],"slug":"funny-bone-4","state":"OH","score":0,"postal_code":"","location":{"lat":41.5282,"lon":-83.639},"address":"6140
+        Levis Commons Blvd","timezone":"America/New_York","id":43908},"short_title":"Jo
+        Koy","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2050022,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Angelique
+        Kidjo","announce_date":"2014-03-18T00:00:00","score":0.44357,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"Angelique
+        Kidjo","short_name":"Angelique Kidjo","url":"https://seatgeek.com/angelique-kidjo-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","home_venue_id":null,"primary":true,"score":0.43087,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-6ecbcc/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-9121c0/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-e09c8a/small.jpg"},"slug":"angelique-kidjo","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":2255}],"url":"https://seatgeek.com/angelique-kidjo-tickets/ithaca-new-york-state-theatre-of-ithaca-2014-11-07-3-30-am/concert/2050022/","created_at":"2014-03-18T00:00:00","venue":{"city":"Ithaca","name":"State
+        Theatre of Ithaca","extended_address":"Ithaca, NY 14850","url":"https://seatgeek.com/venues/state-theatre-of-ithaca/tickets/","country":"US","display_location":"Ithaca,
+        NY","links":[],"slug":"state-theatre-of-ithaca","state":"NY","score":0.50222,"postal_code":"14850","location":{"lat":42.4395,"lon":-76.4994},"address":"107
+        W. State St.","timezone":"America/New_York","id":1190},"short_title":"Angelique
+        Kidjo","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2181579,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","announce_date":"2014-06-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Big
+        Daddy Weave","short_name":"Big Daddy Weave","url":"https://seatgeek.com/big-daddy-weave-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","home_venue_id":null,"primary":true,"score":0,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-69e5ff/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-ad85cf/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-1eb9e2/small.jpg"},"slug":"big-daddy-weave","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":6139,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Chris
+        August","short_name":"Chris August","url":"https://seatgeek.com/chris-august-tickets","type":"band","image":null,"home_venue_id":null,"slug":"chris-august","score":0.28955,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23202,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Group
+        1 Crew","short_name":"Group 1 Crew","url":"https://seatgeek.com/group-1-crew-tickets","type":"band","image":null,"home_venue_id":null,"slug":"group-1-crew","score":0.41509,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23853,"genres":[{"slug":"christian","primary":true,"name":"christian"}]}],"url":"https://seatgeek.com/big-daddy-weave-with-chris-august-and-group-1-crew-tickets/ladson-south-carolina-coastal-carolina-fair-2014-11-07-3-30-am/concert/2181579/","created_at":"2014-06-01T00:00:00","venue":{"city":"Ladson","name":"Coastal
+        Carolina Fair","extended_address":"Ladson, SC ","url":"https://seatgeek.com/venues/coastal-carolina-fair/tickets/","country":"US","display_location":"Ladson,
+        SC","links":[],"slug":"coastal-carolina-fair","state":"SC","score":0,"postal_code":"","location":{"lat":33.01,"lon":-80.13},"address":"","timezone":"America/New_York","id":68533},"short_title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2144318,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Ralphie
+        May","announce_date":"2014-05-09T00:00:00","score":0.40358,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":11},"name":"Ralphie
+        May","short_name":"Ralphie May","url":"https://seatgeek.com/ralphie-may-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","home_venue_id":null,"primary":true,"score":0.41948,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-a7a9d3/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-1cc760/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-e93d72/small.jpg"},"slug":"ralphie-may","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5368,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/ralphie-may-tickets/comedy/2014-11-07-3-30-am/2144318/","created_at":"2014-05-09T00:00:00","venue":{"city":"South
+        Orange","name":"South Orange Performing Arts Center","extended_address":"South
+        Orange, NJ 07079","url":"https://seatgeek.com/venues/south-orange-performing-arts-center/tickets/","country":"US","display_location":"South
+        Orange, NJ","links":[],"slug":"south-orange-performing-arts-center","state":"NJ","score":0.28795,"postal_code":"07079","location":{"lat":40.7457,"lon":-74.2578},"address":"1
+        SOPAC Way","timezone":"America/New_York","id":3562},"short_title":"Ralphie
+        May","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2373253,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"12th
+        Planet","announce_date":"2014-10-13T00:00:00","score":0.5275,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"12th
+        Planet","short_name":"12th Planet","url":"https://seatgeek.com/12th-planet-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","home_venue_id":null,"primary":true,"score":0.5379,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-a0e310/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-f21639/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-293b97/small.jpg"},"slug":"12th-planet","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":7548,"genres":[{"slug":"dubstep","primary":true,"name":"dubstep"}]}],"url":"https://seatgeek.com/12th-planet-tickets/bloomington-indiana-kilroy-s-dunnkirk-2014-11-07-3-30-am/concert/2373253/","created_at":"2014-10-13T00:00:00","venue":{"city":"Bloomington","name":"Kilroy''s
+        Dunnkirk","extended_address":"Bloomington, IN 47408","url":"https://seatgeek.com/venues/kilroy-s-dunnkirk/tickets/","country":"US","display_location":"Bloomington,
+        IN","links":[],"slug":"kilroy-s-dunnkirk","state":"IN","score":0,"postal_code":"47408","location":{"lat":39.1693,"lon":-86.534},"address":"319
+        N. Walnut St.","timezone":"America/New_York","id":44703},"short_title":"12th
+        Planet","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1987163,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Carlos
+        Mencia","announce_date":"2014-02-03T16:49:44","score":0.38146,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":13},"name":"Carlos
+        Mencia","short_name":"Carlos Mencia","url":"https://seatgeek.com/carlos-mencia-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","home_venue_id":null,"primary":true,"score":0.40057,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2998e4/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2b634b/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-dc0894/small.jpg"},"slug":"carlos-mencia","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5248,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/carlos-mencia-tickets/comedy/2014-11-07-3-30-am/1987163/","created_at":"2014-02-03T16:49:44","venue":{"city":"Fort
+        Lauderdale","name":"The Improv","extended_address":"Fort Lauderdale, FL ","url":"https://seatgeek.com/venues/the-improv-5/tickets/","country":"US","display_location":"Fort
+        Lauderdale, FL","links":[],"slug":"the-improv-5","state":"FL","score":0,"postal_code":"","location":{"lat":26.1237,"lon":-80.1436},"address":null,"timezone":"America/New_York","id":13807},"short_title":"Carlos
+        Mencia","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:04:36 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:05:31 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3117'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"e778deb6e3d4c5aedf342b5b84c42b6635227c20"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 654332423 654310218
+      Age:
+      - '696'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":126245,"geolocation":null,"took":7,"page":1},"events":[{"links":[],"id":2235271,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Cash","announce_date":"2014-07-06T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-07T23:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":7},"name":"Cash","short_name":"Cash","url":"https://seatgeek.com/cash-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"cash","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":24219,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/cash-tickets/biberach-stadthalle-biberach-2014-11-07-3-30-am/concert/2235271/","created_at":"2014-07-06T00:00:00","venue":{"city":"Biberach","name":"Stadthalle
+        - Biberach","extended_address":"Biberach, Germany","url":"https://seatgeek.com/venues/stadthalle-biberach/tickets/","country":"Germany","display_location":"Biberach,
+        Germany","links":[],"slug":"stadthalle-biberach","state":"Baden-wurttemberg","score":0,"postal_code":"88400","location":{"lat":48.29,"lon":10.22},"address":"Marktplatz
+        7/1","timezone":"Europe/Berlin","id":30888},"short_title":"Cash","datetime_utc":"2014-11-07T02:30:00","datetime_tbd":false},{"links":[],"id":2350063,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Acid
+        Baby Jesus","announce_date":"2014-10-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T00:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Acid
+        Baby Jesus","short_name":"Acid Baby Jesus","url":"https://seatgeek.com/acid-baby-jesus-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"acid-baby-jesus","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":82149,"genres":[{"slug":"garage-rock","primary":true,"name":"garage-rock"}]}],"url":"https://seatgeek.com/acid-baby-jesus-tickets/london-the-shacklewell-arms-2014-11-07-3-30-am/concert/2350063/","created_at":"2014-10-01T00:00:00","venue":{"city":"London","name":"The
+        Shacklewell Arms","extended_address":"London, UK","url":"https://seatgeek.com/venues/the-shacklewell-arms/tickets/","country":"UK","display_location":"London,
+        UK","links":[],"slug":"the-shacklewell-arms","state":"Hck","score":0,"postal_code":"E8
+        2EB","location":{"lat":51.5508,"lon":-0.06827},"address":"71 Shacklewell Lane","timezone":"Europe/London","id":10723},"short_title":"Acid
+        Baby Jesus","datetime_utc":"2014-11-07T03:30:00","datetime_tbd":false},{"links":[],"id":2055902,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Tab
+        Benoit","announce_date":"2014-03-21T00:00:00","score":0.31634,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":15},"name":"Tab
+        Benoit","short_name":"Tab Benoit","url":"https://seatgeek.com/tab-benoit-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg","home_venue_id":null,"primary":true,"score":0.33933,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg"},"slug":"tab-benoit","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":10629,"genres":[{"slug":"blues","primary":true,"name":"blues"}]}],"url":"https://seatgeek.com/tab-benoit-tickets/gainesville-florida-university-of-florida-2014-11-07-3-30-am/concert/2055902/","created_at":"2014-03-21T00:00:00","venue":{"city":"Gainesville","name":"University
+        Of Florida","extended_address":"Gainesville, FL 32611","url":"https://seatgeek.com/venues/university-of-florida/tickets/","country":"US","display_location":"Gainesville,
+        FL","links":[],"slug":"university-of-florida","state":"FL","score":0,"postal_code":"32611","location":{"lat":29.6453,"lon":-82.3464},"address":"2151
+        W. University Ave.","timezone":"America/New_York","id":7009},"short_title":"Tab
+        Benoit","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2009315,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Balsam
+        Range","announce_date":"2014-02-16T16:25:20","score":0.20131,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Balsam
+        Range","short_name":"Balsam Range","url":"https://seatgeek.com/balsam-range-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.23116,"images":{},"slug":"balsam-range","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":100650}],"url":"https://seatgeek.com/balsam-range-tickets/palatka-florida-rodeheaver-boys-ranch-2014-11-07-3-30-am/concert/2009315/","created_at":"2014-02-16T16:25:20","venue":{"city":"Palatka","name":"Rodeheaver
+        Boys Ranch","extended_address":"Palatka, FL 32193","url":"https://seatgeek.com/venues/rodeheaver-boys-ranch/tickets/","country":"US","display_location":"Palatka,
+        FL","links":[],"slug":"rodeheaver-boys-ranch","state":"FL","score":0,"postal_code":"32193","location":{"lat":29.5405,"lon":-81.7117},"address":"380
+        Boys Ranch Rd.","timezone":"America/New_York","id":15274},"short_title":"Balsam
+        Range","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2050022,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Angelique
+        Kidjo","announce_date":"2014-03-18T00:00:00","score":0.44357,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"Angelique
+        Kidjo","short_name":"Angelique Kidjo","url":"https://seatgeek.com/angelique-kidjo-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","home_venue_id":null,"primary":true,"score":0.43087,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-6ecbcc/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-9121c0/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-e09c8a/small.jpg"},"slug":"angelique-kidjo","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":2255}],"url":"https://seatgeek.com/angelique-kidjo-tickets/ithaca-new-york-state-theatre-of-ithaca-2014-11-07-3-30-am/concert/2050022/","created_at":"2014-03-18T00:00:00","venue":{"city":"Ithaca","name":"State
+        Theatre of Ithaca","extended_address":"Ithaca, NY 14850","url":"https://seatgeek.com/venues/state-theatre-of-ithaca/tickets/","country":"US","display_location":"Ithaca,
+        NY","links":[],"slug":"state-theatre-of-ithaca","state":"NY","score":0.50222,"postal_code":"14850","location":{"lat":42.4395,"lon":-76.4994},"address":"107
+        W. State St.","timezone":"America/New_York","id":1190},"short_title":"Angelique
+        Kidjo","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2373253,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"12th
+        Planet","announce_date":"2014-10-13T00:00:00","score":0.5275,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"12th
+        Planet","short_name":"12th Planet","url":"https://seatgeek.com/12th-planet-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","home_venue_id":null,"primary":true,"score":0.5379,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-a0e310/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-f21639/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-293b97/small.jpg"},"slug":"12th-planet","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":7548,"genres":[{"slug":"dubstep","primary":true,"name":"dubstep"}]}],"url":"https://seatgeek.com/12th-planet-tickets/bloomington-indiana-kilroy-s-dunnkirk-2014-11-07-3-30-am/concert/2373253/","created_at":"2014-10-13T00:00:00","venue":{"city":"Bloomington","name":"Kilroy''s
+        Dunnkirk","extended_address":"Bloomington, IN 47408","url":"https://seatgeek.com/venues/kilroy-s-dunnkirk/tickets/","country":"US","display_location":"Bloomington,
+        IN","links":[],"slug":"kilroy-s-dunnkirk","state":"IN","score":0,"postal_code":"47408","location":{"lat":39.1693,"lon":-86.534},"address":"319
+        N. Walnut St.","timezone":"America/New_York","id":44703},"short_title":"12th
+        Planet","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2181579,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","announce_date":"2014-06-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Big
+        Daddy Weave","short_name":"Big Daddy Weave","url":"https://seatgeek.com/big-daddy-weave-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","home_venue_id":null,"primary":true,"score":0,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-69e5ff/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-ad85cf/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-1eb9e2/small.jpg"},"slug":"big-daddy-weave","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":6139,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Chris
+        August","short_name":"Chris August","url":"https://seatgeek.com/chris-august-tickets","type":"band","image":null,"home_venue_id":null,"slug":"chris-august","score":0.28955,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23202,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Group
+        1 Crew","short_name":"Group 1 Crew","url":"https://seatgeek.com/group-1-crew-tickets","type":"band","image":null,"home_venue_id":null,"slug":"group-1-crew","score":0.41509,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23853,"genres":[{"slug":"christian","primary":true,"name":"christian"}]}],"url":"https://seatgeek.com/big-daddy-weave-with-chris-august-and-group-1-crew-tickets/ladson-south-carolina-coastal-carolina-fair-2014-11-07-3-30-am/concert/2181579/","created_at":"2014-06-01T00:00:00","venue":{"city":"Ladson","name":"Coastal
+        Carolina Fair","extended_address":"Ladson, SC ","url":"https://seatgeek.com/venues/coastal-carolina-fair/tickets/","country":"US","display_location":"Ladson,
+        SC","links":[],"slug":"coastal-carolina-fair","state":"SC","score":0,"postal_code":"","location":{"lat":33.01,"lon":-80.13},"address":"","timezone":"America/New_York","id":68533},"short_title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2144318,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Ralphie
+        May","announce_date":"2014-05-09T00:00:00","score":0.40358,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":11},"name":"Ralphie
+        May","short_name":"Ralphie May","url":"https://seatgeek.com/ralphie-may-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","home_venue_id":null,"primary":true,"score":0.41948,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-a7a9d3/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-1cc760/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-e93d72/small.jpg"},"slug":"ralphie-may","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5368,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/ralphie-may-tickets/comedy/2014-11-07-3-30-am/2144318/","created_at":"2014-05-09T00:00:00","venue":{"city":"South
+        Orange","name":"South Orange Performing Arts Center","extended_address":"South
+        Orange, NJ 07079","url":"https://seatgeek.com/venues/south-orange-performing-arts-center/tickets/","country":"US","display_location":"South
+        Orange, NJ","links":[],"slug":"south-orange-performing-arts-center","state":"NJ","score":0.28795,"postal_code":"07079","location":{"lat":40.7457,"lon":-74.2578},"address":"1
+        SOPAC Way","timezone":"America/New_York","id":3562},"short_title":"Ralphie
+        May","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":1987163,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Carlos
+        Mencia","announce_date":"2014-02-03T16:49:44","score":0.38146,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":13},"name":"Carlos
+        Mencia","short_name":"Carlos Mencia","url":"https://seatgeek.com/carlos-mencia-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","home_venue_id":null,"primary":true,"score":0.40057,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2998e4/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2b634b/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-dc0894/small.jpg"},"slug":"carlos-mencia","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5248,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/carlos-mencia-tickets/comedy/2014-11-07-3-30-am/1987163/","created_at":"2014-02-03T16:49:44","venue":{"city":"Fort
+        Lauderdale","name":"The Improv","extended_address":"Fort Lauderdale, FL ","url":"https://seatgeek.com/venues/the-improv-5/tickets/","country":"US","display_location":"Fort
+        Lauderdale, FL","links":[],"slug":"the-improv-5","state":"FL","score":0,"postal_code":"","location":{"lat":26.1237,"lon":-80.1436},"address":null,"timezone":"America/New_York","id":13807},"short_title":"Carlos
+        Mencia","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2324333,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Killah
+        Priest with M80","announce_date":"2014-09-09T00:00:00","score":0.11504,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"M80","short_name":"M80","url":"https://seatgeek.com/m80-tickets","type":"band","image":null,"home_venue_id":null,"slug":"m80","score":0.417,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":26265},{"stats":{"event_count":2},"name":"Killah
+        Priest","short_name":"Killah Priest","url":"https://seatgeek.com/killah-priest-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"killah-priest","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":71428}],"url":"https://seatgeek.com/killah-priest-with-m80-tickets/indianapolis-indiana-the-hi-fi-2-2014-11-07-3-30-am/concert/2324333/","created_at":"2014-09-09T00:00:00","venue":{"city":"Indianapolis","name":"The
+        Hi Fi","extended_address":"Indianapolis, IN 46203","url":"https://seatgeek.com/venues/the-hi-fi-2/tickets/","country":"US","display_location":"Indianapolis,
+        IN","links":[],"slug":"the-hi-fi-2","state":"IN","score":0.17079,"postal_code":"46203","location":{"lat":39.7527,"lon":-86.141},"address":"1043
+        Virginia Ave","timezone":"America/New_York","id":61655},"short_title":"Killah
+        Priest with M80","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:05:31 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Fri, 07 Nov 2014 18:06:27 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3113'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"915ba04db05dc3d36e4aeb5d4fb4126a2ea357e7"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 519346531 519292953
+      Age:
+      - '1712'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":126245,"geolocation":null,"took":8,"page":1},"events":[{"links":[],"id":2235271,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Cash","announce_date":"2014-07-06T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-07T23:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":7},"name":"Cash","short_name":"Cash","url":"https://seatgeek.com/cash-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"cash","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":24219,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/cash-tickets/biberach-stadthalle-biberach-2014-11-07-3-30-am/concert/2235271/","created_at":"2014-07-06T00:00:00","venue":{"city":"Biberach","name":"Stadthalle
+        - Biberach","extended_address":"Biberach, Germany","url":"https://seatgeek.com/venues/stadthalle-biberach/tickets/","country":"Germany","display_location":"Biberach,
+        Germany","links":[],"slug":"stadthalle-biberach","state":"Baden-wurttemberg","score":0,"postal_code":"88400","location":{"lat":48.29,"lon":10.22},"address":"Marktplatz
+        7/1","timezone":"Europe/Berlin","id":30888},"short_title":"Cash","datetime_utc":"2014-11-07T02:30:00","datetime_tbd":false},{"links":[],"id":2350063,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Acid
+        Baby Jesus","announce_date":"2014-10-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T00:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Acid
+        Baby Jesus","short_name":"Acid Baby Jesus","url":"https://seatgeek.com/acid-baby-jesus-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"acid-baby-jesus","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":82149,"genres":[{"slug":"garage-rock","primary":true,"name":"garage-rock"}]}],"url":"https://seatgeek.com/acid-baby-jesus-tickets/london-the-shacklewell-arms-2014-11-07-3-30-am/concert/2350063/","created_at":"2014-10-01T00:00:00","venue":{"city":"London","name":"The
+        Shacklewell Arms","extended_address":"London, UK","url":"https://seatgeek.com/venues/the-shacklewell-arms/tickets/","country":"UK","display_location":"London,
+        UK","links":[],"slug":"the-shacklewell-arms","state":"Hck","score":0,"postal_code":"E8
+        2EB","location":{"lat":51.5508,"lon":-0.06827},"address":"71 Shacklewell Lane","timezone":"Europe/London","id":10723},"short_title":"Acid
+        Baby Jesus","datetime_utc":"2014-11-07T03:30:00","datetime_tbd":false},{"links":[],"id":2055902,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Tab
+        Benoit","announce_date":"2014-03-21T00:00:00","score":0.31634,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":15},"name":"Tab
+        Benoit","short_name":"Tab Benoit","url":"https://seatgeek.com/tab-benoit-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg","home_venue_id":null,"primary":true,"score":0.33933,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tab-benoit-dc53a3/10629/huge.jpg"},"slug":"tab-benoit","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":10629,"genres":[{"slug":"blues","primary":true,"name":"blues"}]}],"url":"https://seatgeek.com/tab-benoit-tickets/gainesville-florida-university-of-florida-2014-11-07-3-30-am/concert/2055902/","created_at":"2014-03-21T00:00:00","venue":{"city":"Gainesville","name":"University
+        Of Florida","extended_address":"Gainesville, FL 32611","url":"https://seatgeek.com/venues/university-of-florida/tickets/","country":"US","display_location":"Gainesville,
+        FL","links":[],"slug":"university-of-florida","state":"FL","score":0,"postal_code":"32611","location":{"lat":29.6453,"lon":-82.3464},"address":"2151
+        W. University Ave.","timezone":"America/New_York","id":7009},"short_title":"Tab
+        Benoit","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2009315,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Balsam
+        Range","announce_date":"2014-02-16T16:25:20","score":0.20131,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Balsam
+        Range","short_name":"Balsam Range","url":"https://seatgeek.com/balsam-range-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.23116,"images":{},"slug":"balsam-range","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":100650}],"url":"https://seatgeek.com/balsam-range-tickets/palatka-florida-rodeheaver-boys-ranch-2014-11-07-3-30-am/concert/2009315/","created_at":"2014-02-16T16:25:20","venue":{"city":"Palatka","name":"Rodeheaver
+        Boys Ranch","extended_address":"Palatka, FL 32193","url":"https://seatgeek.com/venues/rodeheaver-boys-ranch/tickets/","country":"US","display_location":"Palatka,
+        FL","links":[],"slug":"rodeheaver-boys-ranch","state":"FL","score":0,"postal_code":"32193","location":{"lat":29.5405,"lon":-81.7117},"address":"380
+        Boys Ranch Rd.","timezone":"America/New_York","id":15274},"short_title":"Balsam
+        Range","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2082777,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jo
+        Koy","announce_date":"2014-04-08T00:00:00","score":0.37309,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":11},"name":"Jo
+        Koy","short_name":"Jo Koy","url":"https://seatgeek.com/jo-koy-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jo-koy-c5cd20/5282/huge.jpg","home_venue_id":null,"primary":true,"score":0.3927,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jo-koy-c5cd20/5282/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-245194/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-6949b5/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5282/jo-koy-b78b91/small.jpg"},"slug":"jo-koy","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5282}],"url":"https://seatgeek.com/jo-koy-tickets/comedy/2014-11-07-3-30-am/2082777/","created_at":"2014-04-08T00:00:00","venue":{"city":"Toledo","name":"Funny
+        Bone","extended_address":"Toledo, OH ","url":"https://seatgeek.com/venues/funny-bone-4/tickets/","country":"US","display_location":"Toledo,
+        OH","links":[],"slug":"funny-bone-4","state":"OH","score":0,"postal_code":"","location":{"lat":41.5282,"lon":-83.639},"address":"6140
+        Levis Commons Blvd","timezone":"America/New_York","id":43908},"short_title":"Jo
+        Koy","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2050022,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Angelique
+        Kidjo","announce_date":"2014-03-18T00:00:00","score":0.44357,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"Angelique
+        Kidjo","short_name":"Angelique Kidjo","url":"https://seatgeek.com/angelique-kidjo-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","home_venue_id":null,"primary":true,"score":0.43087,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angelique-kidjo-f2323e/2255/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-6ecbcc/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-9121c0/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2255/angelique-kidjo-e09c8a/small.jpg"},"slug":"angelique-kidjo","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":2255}],"url":"https://seatgeek.com/angelique-kidjo-tickets/ithaca-new-york-state-theatre-of-ithaca-2014-11-07-3-30-am/concert/2050022/","created_at":"2014-03-18T00:00:00","venue":{"city":"Ithaca","name":"State
+        Theatre of Ithaca","extended_address":"Ithaca, NY 14850","url":"https://seatgeek.com/venues/state-theatre-of-ithaca/tickets/","country":"US","display_location":"Ithaca,
+        NY","links":[],"slug":"state-theatre-of-ithaca","state":"NY","score":0.50222,"postal_code":"14850","location":{"lat":42.4395,"lon":-76.4994},"address":"107
+        W. State St.","timezone":"America/New_York","id":1190},"short_title":"Angelique
+        Kidjo","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2181579,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","announce_date":"2014-06-01T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Big
+        Daddy Weave","short_name":"Big Daddy Weave","url":"https://seatgeek.com/big-daddy-weave-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","home_venue_id":null,"primary":true,"score":0,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/big-daddy-weave-9232f3/6139/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-69e5ff/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-ad85cf/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/6139/big-daddy-weave-1eb9e2/small.jpg"},"slug":"big-daddy-weave","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":6139,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Chris
+        August","short_name":"Chris August","url":"https://seatgeek.com/chris-august-tickets","type":"band","image":null,"home_venue_id":null,"slug":"chris-august","score":0.28955,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23202,"genres":[{"slug":"christian","primary":true,"name":"christian"}]},{"stats":{"event_count":1},"name":"Group
+        1 Crew","short_name":"Group 1 Crew","url":"https://seatgeek.com/group-1-crew-tickets","type":"band","image":null,"home_venue_id":null,"slug":"group-1-crew","score":0.41509,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23853,"genres":[{"slug":"christian","primary":true,"name":"christian"}]}],"url":"https://seatgeek.com/big-daddy-weave-with-chris-august-and-group-1-crew-tickets/ladson-south-carolina-coastal-carolina-fair-2014-11-07-3-30-am/concert/2181579/","created_at":"2014-06-01T00:00:00","venue":{"city":"Ladson","name":"Coastal
+        Carolina Fair","extended_address":"Ladson, SC ","url":"https://seatgeek.com/venues/coastal-carolina-fair/tickets/","country":"US","display_location":"Ladson,
+        SC","links":[],"slug":"coastal-carolina-fair","state":"SC","score":0,"postal_code":"","location":{"lat":33.01,"lon":-80.13},"address":"","timezone":"America/New_York","id":68533},"short_title":"Big
+        Daddy Weave with Chris August and Group 1 Crew","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2144318,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Ralphie
+        May","announce_date":"2014-05-09T00:00:00","score":0.40358,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":11},"name":"Ralphie
+        May","short_name":"Ralphie May","url":"https://seatgeek.com/ralphie-may-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","home_venue_id":null,"primary":true,"score":0.41948,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/ralphie-may-c1b696/5368/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-a7a9d3/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-1cc760/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5368/ralphie-may-e93d72/small.jpg"},"slug":"ralphie-may","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5368,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/ralphie-may-tickets/comedy/2014-11-07-3-30-am/2144318/","created_at":"2014-05-09T00:00:00","venue":{"city":"South
+        Orange","name":"South Orange Performing Arts Center","extended_address":"South
+        Orange, NJ 07079","url":"https://seatgeek.com/venues/south-orange-performing-arts-center/tickets/","country":"US","display_location":"South
+        Orange, NJ","links":[],"slug":"south-orange-performing-arts-center","state":"NJ","score":0.28795,"postal_code":"07079","location":{"lat":40.7457,"lon":-74.2578},"address":"1
+        SOPAC Way","timezone":"America/New_York","id":3562},"short_title":"Ralphie
+        May","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false},{"links":[],"id":2373253,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"12th
+        Planet","announce_date":"2014-10-13T00:00:00","score":0.5275,"date_tbd":false,"type":"concert","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"12th
+        Planet","short_name":"12th Planet","url":"https://seatgeek.com/12th-planet-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","home_venue_id":null,"primary":true,"score":0.5379,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/12th-planet-c20f9f/7548/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-a0e310/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-f21639/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/7548/12th-planet-293b97/small.jpg"},"slug":"12th-planet","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":7548,"genres":[{"slug":"dubstep","primary":true,"name":"dubstep"}]}],"url":"https://seatgeek.com/12th-planet-tickets/bloomington-indiana-kilroy-s-dunnkirk-2014-11-07-3-30-am/concert/2373253/","created_at":"2014-10-13T00:00:00","venue":{"city":"Bloomington","name":"Kilroy''s
+        Dunnkirk","extended_address":"Bloomington, IN 47408","url":"https://seatgeek.com/venues/kilroy-s-dunnkirk/tickets/","country":"US","display_location":"Bloomington,
+        IN","links":[],"slug":"kilroy-s-dunnkirk","state":"IN","score":0,"postal_code":"47408","location":{"lat":39.1693,"lon":-86.534},"address":"319
+        N. Walnut St.","timezone":"America/New_York","id":44703},"short_title":"12th
+        Planet","datetime_utc":"2014-11-07T08:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1987163,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Carlos
+        Mencia","announce_date":"2014-02-03T16:49:44","score":0.38146,"date_tbd":false,"type":"comedy","datetime_local":"2014-11-07T03:30:00","visible_until_utc":"2014-11-08T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":13},"name":"Carlos
+        Mencia","short_name":"Carlos Mencia","url":"https://seatgeek.com/carlos-mencia-tickets","type":"theater_comedy","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","home_venue_id":null,"primary":true,"score":0.40057,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/carlos-mencia-8eb9d7/5248/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2998e4/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-2b634b/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/5248/carlos-mencia-dc0894/small.jpg"},"slug":"carlos-mencia","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5248,"genres":[{"slug":"comedy","primary":true,"name":"comedy"}]}],"url":"https://seatgeek.com/carlos-mencia-tickets/comedy/2014-11-07-3-30-am/1987163/","created_at":"2014-02-03T16:49:44","venue":{"city":"Fort
+        Lauderdale","name":"The Improv","extended_address":"Fort Lauderdale, FL ","url":"https://seatgeek.com/venues/the-improv-5/tickets/","country":"US","display_location":"Fort
+        Lauderdale, FL","links":[],"slug":"the-improv-5","state":"FL","score":0,"postal_code":"","location":{"lat":26.1237,"lon":-80.1436},"address":null,"timezone":"America/New_York","id":13807},"short_title":"Carlos
+        Mencia","datetime_utc":"2014-11-07T08:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Fri, 07 Nov 2014 18:06:27 GMT
+recorded_with: VCR 2.9.2
