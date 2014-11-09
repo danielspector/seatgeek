@@ -91,4 +91,148 @@ http_interactions:
         Pennsylvania Plaza","timezone":"America/New_York","id":2513}'
     http_version: 
   recorded_at: Sun, 09 Nov 2014 02:40:55 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2?id=2513
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 05:53:36 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '69'
+      Connection:
+      - keep-alive
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - '523638064'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+    body:
+      encoding: UTF-8
+      string: "<html><title>404: Not Found</title><body>404: Not Found</body></html>"
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 05:54:25 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/venues?id=2513
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:09:07 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '348'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"9176aefd7748a20cce789e64c427796cebd61e3a"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 523660641 523642964
+      Age:
+      - '719'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":2,"page":1},"venues":[{"city":"New
+        York","name":"The Theater at Madison Square Garden","extended_address":"New
+        York, NY 10001","url":"https://seatgeek.com/venues/the-theater-at-madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"the-theater-at-madison-square-garden","state":"NY","score":0.64818,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":2513}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:09:55 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/venues?id=93
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"f469543e16756ee8d0fe4627578c9b29d1dd064c"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Varnish:
+      - '523671007'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":4,"page":1},"venues":[{"city":"New
+        York","name":"Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":93}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:16:43 GMT
 recorded_with: VCR 2.9.3

@@ -1,16 +1,21 @@
 module SeatGeek
   class Request
     BASE_URI = 'https://api.seatgeek.com/2'
-    BASE_PATH = nil
+
     class << self
 
-      def find(id)
-        url = "#{BASE_URI}#{self::BASE_PATH}"
-        make_request("#{url}/#{id}")
+      def find(opts = nil)
+        params = build_params(opts)
+        make_request(url, params)
+      end
+
+      def search(search_query)
+        search_query = search_query.parameterize
+        params = build_params({q: search_query})
+        make_request(url, params)
       end
 
       def all
-        url = "#{BASE_URI}#{self::BASE_PATH}"
         response = get(url)
         if response.success?
           return Hashie::Mash.new(MultiJson.load(response.body)).send(get_class_name)
@@ -23,15 +28,40 @@ module SeatGeek
 
       private
 
+      def build_params(opts)
+        return {}.tap do |hash|
+            opts.each do |key, value|
+            hash[key] = value
+          end
+        end
+      end
+
       def get_class_name
         self.to_s.demodulize.downcase
       end
 
-      def make_request(url)
-        response = get(url)
+      def make_request(url, params)
+        response = get(url, params)
 
         if response.success?
-          return Hashie::Mash.new(MultiJson.load(response.body))
+          result = generate_parsed_response(response)
+          return get_first_element_if_exists(result)
+        end
+      end
+
+      def generate_parsed_response(response)
+        return Hashie::Mash.new(MultiJson.load(response.body)).send(get_class_name)
+      end
+
+      def url
+        "#{BASE_URI}#{self::BASE_PATH}"
+      end
+
+      def get_first_element_if_exists(result)
+        if result.count == 1
+          return result.first
+        else
+          return result
         end
       end
 

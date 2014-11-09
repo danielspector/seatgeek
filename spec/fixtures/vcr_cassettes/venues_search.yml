@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/venues?q=madison-square-garden
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"7b84c9e92eddc72a752bfcedadb4b356e87f3ba0"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Varnish:
+      - '366122297'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":2,"geolocation":null,"took":4,"page":1},"venues":[{"city":"New
+        York","name":"Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":93},{"city":"New York","name":"The
+        Theater at Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/the-theater-at-madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"the-theater-at-madison-square-garden","state":"NY","score":0.64818,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":2513}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:16:44 GMT
+recorded_with: VCR 2.9.3
