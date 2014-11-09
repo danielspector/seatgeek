@@ -1,9 +1,11 @@
+require_relative './environment'
 require "seatgeek/version"
 require "faraday"
 require "hashie"
 require "pry"
 require 'multi_json'
 require "active_support/all"
+
 
 module SeatGeek
   class Request
@@ -26,10 +28,6 @@ module SeatGeek
 
       def connection
         @connection ||= Faraday.new
-      end
-
-      def connection=(connection)
-        @connection = connection
       end
 
       private

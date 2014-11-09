@@ -1,8 +1,7 @@
 require_relative '../environment'
 
 module SeatGeek
-  class Events < Request
-    BASE_PATH = "/events"
-
+  class Performers < Request
+    BASE_PATH = "/performers"
   end
 end
