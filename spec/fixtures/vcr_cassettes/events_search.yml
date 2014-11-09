@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - ngx_openresty
       Date:
-      - Sun, 09 Nov 2014 06:15:55 GMT
+      - Sun, 09 Nov 2014 06:46:19 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,13 +29,13 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - '"7cce5568ef4320596c28b930f05ae9247de28660"'
+      - '"019cb168b687e9a414f8944f7bc4fc6af061f540"'
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
       - "*"
       X-Varnish:
-      - '523671004'
+      - '523713978'
       Age:
       - '0'
       Via:
@@ -44,7 +44,7 @@ http_interactions:
       - lb-ec2-05
     body:
       encoding: UTF-8
-      string: '{"meta":{"per_page":10,"total":11,"geolocation":null,"took":6,"page":1},"events":[{"links":[],"id":2101786,"stats":{"listing_count":630,"average_price":236.5,"lowest_price":120.0,"highest_price":1728.0},"title":"New
+      string: '{"meta":{"per_page":10,"total":11,"geolocation":null,"took":5,"page":1},"events":[{"links":[],"id":2101786,"stats":{"listing_count":630,"average_price":236.5,"lowest_price":120.0,"highest_price":1728.0},"title":"New
         York Giants at Seattle Seahawks","announce_date":"2014-04-24T00:00:00","score":0.82518,"date_tbd":false,"type":"nfl","datetime_local":"2014-11-09T13:25:00","visible_until_utc":"2014-11-10T01:25:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"performers":[{"away_team":true,"stats":{"event_count":8},"name":"New
         York Giants","short_name":"Giants","url":"https://seatgeek.com/new-york-giants-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","home_venue_id":1587,"slug":"new-york-giants","score":0.8526,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-4ce91d/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-638094/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-88909c/small.jpg"},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2079},{"stats":{"event_count":8},"name":"Seattle
         Seahawks","short_name":"Seahawks","url":"https://seatgeek.com/seattle-seahawks-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/seattle-seahawks-c47e21/2081/huge.jpg","home_team":true,"home_venue_id":339,"primary":true,"score":0.8294,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/seattle-seahawks-c47e21/2081/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2081/seattle-seahawks-1c90b4/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2081/seattle-seahawks-a9050a/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2081/seattle-seahawks-c96a21/small.jpg"},"slug":"seattle-seahawks","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2081}],"url":"https://seatgeek.com/giants-at-seahawks-tickets/11-9-2014-seattle-washington-centurylink-field/nfl/2101786/","created_at":"2014-04-24T00:00:00","venue":{"city":"Seattle","name":"CenturyLink
@@ -96,7 +96,7 @@ http_interactions:
         NJ 07073","url":"https://seatgeek.com/venues/metlife-stadium/tickets/","country":"US","display_location":"East
         Rutherford, NJ","links":[],"slug":"metlife-stadium","state":"NJ","score":0.95762,"postal_code":"07073","location":{"lat":40.8128,"lon":-74.0742},"address":"1
         MetLife Stadium Drive","timezone":"America/New_York","id":1587},"short_title":"Redskins
-        at Giants","datetime_utc":"2014-12-14T18:00:00","datetime_tbd":false},{"links":[],"id":2101566,"stats":{"listing_count":3511,"average_price":79.0,"lowest_price":7.0,"highest_price":1337.0},"title":"New
+        at Giants","datetime_utc":"2014-12-14T18:00:00","datetime_tbd":false},{"links":[],"id":2101566,"stats":{"listing_count":4241,"average_price":80.0,"lowest_price":7.0,"highest_price":1578.0},"title":"New
         York Giants at St. Louis Rams","announce_date":"2014-04-24T00:00:00","score":0.80786,"date_tbd":false,"type":"nfl","datetime_local":"2014-12-21T15:05:00","visible_until_utc":"2014-12-22T01:05:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"performers":[{"away_team":true,"stats":{"event_count":8},"name":"New
         York Giants","short_name":"Giants","url":"https://seatgeek.com/new-york-giants-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","home_venue_id":1587,"slug":"new-york-giants","score":0.8526,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/new-york-giants-56d333/2079/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-4ce91d/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-638094/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2079/new-york-giants-88909c/small.jpg"},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2079},{"stats":{"event_count":8},"name":"St.
         Louis Rams","short_name":"Rams","url":"https://seatgeek.com/st-louis-rams-tickets","type":"nfl","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/st-louis-rams-f85407/2080/huge.jpg","home_team":true,"home_venue_id":2779,"primary":true,"score":0.75615,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/st-louis-rams-f85407/2080/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/2080/st-louis-rams-a8e7cd/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/2080/st-louis-rams-86c3b6/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/2080/st-louis-rams-5549aa/small.jpg"},"slug":"st-louis-rams","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1020000,"name":"football"},{"parent_id":1020000,"id":1020100,"name":"nfl"}],"has_upcoming_events":true,"id":2080}],"url":"https://seatgeek.com/giants-at-rams-tickets/12-21-2014-st-louis-missouri-edward-jones-dome/nfl/2101566/","created_at":"2014-04-24T00:00:00","venue":{"city":"St.
@@ -119,5 +119,5 @@ http_interactions:
         North 6th St.","timezone":"America/New_York","id":399},"short_title":"They
         Might Be Giants","datetime_utc":"2015-01-26T00:00:00","general_admission":true,"datetime_tbd":false}]}'
     http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:16:43 GMT
+  recorded_at: Sun, 09 Nov 2014 06:47:07 GMT
 recorded_with: VCR 2.9.3

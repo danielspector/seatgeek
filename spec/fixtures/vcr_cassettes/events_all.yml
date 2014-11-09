@@ -62,209 +62,7 @@ http_interactions:
       Server:
       - ngx_openresty
       Date:
-      - Sun, 09 Nov 2014 06:12:21 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '2763'
-      Connection:
-      - keep-alive
-      Etag:
-      - '"16834ded95e152fa79842064fee2ab9baa0eaf6b"'
-      Cache-Control:
-      - max-age=1800
-      Access-Control-Allow-Origin:
-      - "*"
-      Accept-Ranges:
-      - bytes
-      X-Varnish:
-      - 286679850 286648945
-      Age:
-      - '1275'
-      Via:
-      - 1.1 varnish
-      X-Served-By:
-      - lb-ec2-05
-    body:
-      encoding: UTF-8
-      string: '{"meta":{"per_page":10,"total":124326,"geolocation":null,"took":8,"page":1},"events":[{"links":[],"id":2200183,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Angel
-        Olsen","announce_date":"2014-06-11T00:00:00","score":0.3854,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":10},"name":"Angel
-        Olsen","short_name":"Angel Olsen","url":"https://seatgeek.com/angel-olsen-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angel-olsen-8724cc/23743/huge.jpg","home_venue_id":null,"primary":true,"score":0.41096,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angel-olsen-8724cc/23743/huge.jpg"},"slug":"angel-olsen","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23743,"genres":[{"slug":"folk","primary":true,"name":"folk"}]}],"url":"https://seatgeek.com/angel-olsen-tickets/austin-texas-fun-fun-fun-festival-2014-11-08-3-30-am/concert/2200183/","created_at":"2014-06-11T00:00:00","venue":{"city":"Austin","name":"Fun
-        Fun Fun Festival","extended_address":"Austin, TX ","url":"https://seatgeek.com/venues/fun-fun-fun-festival/tickets/","country":"US","display_location":"Austin,
-        TX","links":[],"slug":"fun-fun-fun-festival","state":"TX","score":0,"postal_code":"","location":{"lat":30.2676,"lon":-97.743},"address":"Venue
-        to be announced","timezone":"America/Chicago","id":17653},"short_title":"Angel
-        Olsen","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2351330,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Kevin
-        Fowler","announce_date":"2014-10-01T00:00:00","score":0.47273,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Kevin
-        Fowler","short_name":"Kevin Fowler","url":"https://seatgeek.com/kevin-fowler-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/kevin-fowler-652d3a/1051/huge.jpg","home_venue_id":null,"primary":true,"score":0.35588,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/kevin-fowler-652d3a/1051/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-a08578/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-1e01d3/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-6c98b6/small.jpg"},"slug":"kevin-fowler","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":1051,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/kevin-fowler-tickets/lubbock-texas-wild-west-2-2014-11-08-3-30-am/concert/2351330/","created_at":"2014-10-01T00:00:00","venue":{"city":"Lubbock","name":"Wild
-        West","extended_address":"Lubbock, TX 79404","url":"https://seatgeek.com/venues/wild-west-2/tickets/","country":"US","display_location":"Lubbock,
-        TX","links":[],"slug":"wild-west-2","state":"TX","score":0.60342,"postal_code":"79404","location":{"lat":33.5747,"lon":-101.844},"address":"2216
-        Interstate 27","timezone":"America/Chicago","id":6485},"short_title":"Kevin
-        Fowler","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1881551,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Rita
-        Hosking","announce_date":"2013-11-14T16:34:54","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Rita
-        Hosking","short_name":"Rita Hosking","url":"https://seatgeek.com/rita-hosking-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"rita-hosking","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":35711}],"url":"https://seatgeek.com/rita-hosking-tickets/lincoln-nebraska-lafta-2014-11-08-3-30-am/concert/1881551/","created_at":"2013-11-14T16:34:54","venue":{"city":"Lincoln","name":"LAFTA","extended_address":"Lincoln,
-        NE 68503","url":"https://seatgeek.com/venues/lafta/tickets/","country":"US","display_location":"Lincoln,
-        NE","links":[],"slug":"lafta","state":"NE","score":0,"postal_code":"68503","location":{"lat":40.81,"lon":-96.71},"address":"504
-        S. 7th","timezone":"America/Chicago","id":15523},"short_title":"Rita Hosking","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2077176,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Suzy
-        Bogguss","announce_date":"2014-04-07T00:00:00","score":0.56196,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":3},"name":"Suzy
-        Bogguss","short_name":"Suzy Bogguss","url":"https://seatgeek.com/suzy-bogguss-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/suzy-bogguss-d7a76f/9484/huge.jpg","home_venue_id":null,"primary":true,"score":0.58007,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/suzy-bogguss-d7a76f/9484/huge.jpg"},"slug":"suzy-bogguss","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":9484,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/suzy-bogguss-tickets/tyler-texas-liberty-hall-1-2014-11-08-3-30-am/concert/2077176/","created_at":"2014-04-07T00:00:00","venue":{"city":"Tyler","name":"Liberty
-        Hall","extended_address":"Tyler, TX 75702","url":"https://seatgeek.com/venues/liberty-hall-1/tickets/","country":"US","display_location":"Tyler,
-        TX","links":[],"slug":"liberty-hall-1","state":"TX","score":0,"postal_code":"75702","location":{"lat":32.35,"lon":-95.3},"address":"110
-        East Irwin","timezone":"America/Chicago","id":48943},"short_title":"Suzy Bogguss","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1921834,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Lee
-        Greenwood","announce_date":"2013-12-08T16:19:12","score":0.53004,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Lee
-        Greenwood","short_name":"Lee Greenwood","url":"https://seatgeek.com/lee-greenwood-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.5495,"images":{},"slug":"lee-greenwood","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":9968,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/lee-greenwood-tickets/steelville-missouri-meramec-music-theatre-2014-11-08-3-30-am/concert/1921834/","created_at":"2013-12-08T16:19:12","venue":{"city":"Steelville","name":"Meramec
-        Music Theatre","extended_address":"Steelville, MO 65565","url":"https://seatgeek.com/venues/meramec-music-theatre/tickets/","country":"US","display_location":"Steelville,
-        MO","links":[],"slug":"meramec-music-theatre","state":"MO","score":0,"postal_code":"65565","location":{"lat":37.968,"lon":-91.3677},"address":"26
-        Missouri 8","timezone":"America/Chicago","id":39344},"short_title":"Lee Greenwood","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2072219,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Lost
-        and Nameless Orchestra","announce_date":"2014-03-30T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Lost
-        and Nameless Orchestra","short_name":"Lost and Nameless Orchestra","url":"https://seatgeek.com/lost-and-nameless-orchestra-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"lost-and-nameless-orchestra","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":35955}],"url":"https://seatgeek.com/lost-and-nameless-orchestra-tickets/fischer-texas-fischer-hall-2014-11-08-3-30-am/concert/2072219/","created_at":"2014-03-30T00:00:00","venue":{"city":"Fischer","name":"Fischer
-        Hall","extended_address":"Fischer, TX 78623","url":"https://seatgeek.com/venues/fischer-hall/tickets/","country":"US","display_location":"Fischer,
-        TX","links":[],"slug":"fischer-hall","state":"TX","score":0,"postal_code":"78623","location":{"lat":29.9769,"lon":-98.2657},"address":"115
-        Fischer Store Road","timezone":"America/Chicago","id":15700},"short_title":"Lost
-        and Nameless Orchestra","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2228090,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Architects","announce_date":"2014-06-30T00:00:00","score":0.33722,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":48},"name":"Architects","short_name":"Architects","url":"https://seatgeek.com/architects-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.36482,"images":{},"slug":"architects","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":16369,"genres":[{"slug":"metalcore","primary":true,"name":"metalcore"}]}],"url":"https://seatgeek.com/architects-tickets/mexico-city-el-plaza-condesa-2014-11-08-3-30-am/concert/2228090/","created_at":"2014-06-30T00:00:00","venue":{"city":"Mexico
-        City","name":"El Plaza Condesa","extended_address":"Mexico City, Mexico","url":"https://seatgeek.com/venues/el-plaza-condesa/tickets/","country":"Mexico","display_location":"Mexico
-        City, Mexico","links":[],"slug":"el-plaza-condesa","state":"??","score":0,"postal_code":"06140","location":{"lat":19.3867,"lon":-99.1415},"address":"4
-        Juan Escutia","timezone":"America/Mexico_City","id":17213},"short_title":"Architects","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2302414,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jill
-        Barber","announce_date":"2014-08-25T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":7},"name":"Jill
-        Barber","short_name":"Jill Barber","url":"https://seatgeek.com/jill-barber-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jill-barber-40fdcd/7919/huge.jpg","home_venue_id":null,"primary":true,"score":0,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jill-barber-40fdcd/7919/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-04f533/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-198275/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-90bf62/small.jpg"},"slug":"jill-barber","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":7919,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/jill-barber-tickets/regina-royal-saskatchewan-museum-theater-2014-11-08-3-30-am/concert/2302414/","created_at":"2014-08-25T00:00:00","venue":{"city":"Regina","name":"Royal
-        Saskatchewan Museum Theater","extended_address":"Regina, Canada","url":"https://seatgeek.com/venues/royal-saskatchewan-museum-theater/tickets/","country":"Canada","display_location":"Regina,
-        Canada","links":[],"slug":"royal-saskatchewan-museum-theater","state":"SK","score":0,"postal_code":"S4P4W7","location":{"lat":50.4389,"lon":-104.618},"address":"2445
-        Albert St","timezone":"America/Regina","id":73746},"short_title":"Jill Barber","datetime_utc":"2014-11-08T09:30:00","datetime_tbd":false},{"links":[],"id":2348533,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Aaron
-        Watson","announce_date":"2014-10-01T00:00:00","score":0.33797,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":15},"name":"Aaron
-        Watson","short_name":"Aaron Watson","url":"https://seatgeek.com/aaron-watson-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/aaron-watson-3492ae/138/huge.jpg","home_venue_id":null,"primary":true,"score":0.36554,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/aaron-watson-3492ae/138/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-f41900/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-1a68ee/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-3dd2cd/small.jpg"},"slug":"aaron-watson","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":138,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/aaron-watson-tickets/stafford-texas-redneck-country-club-2014-11-08-3-30-am/concert/2348533/","created_at":"2014-10-01T00:00:00","venue":{"city":"Stafford","name":"Redneck
-        Country Club","extended_address":"Stafford, TX 77477","url":"https://seatgeek.com/venues/redneck-country-club/tickets/","country":"US","display_location":"Stafford,
-        TX","links":[],"slug":"redneck-country-club","state":"TX","score":0,"postal_code":"77477","location":{"lat":29.6423,"lon":-95.5704},"address":"11110
-        West Airport Boulevard","timezone":"America/Chicago","id":64481},"short_title":"Aaron
-        Watson","datetime_utc":"2014-11-08T09:30:00","datetime_tbd":false},{"links":[],"id":2312482,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Liz
-        Longley","announce_date":"2014-08-31T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":11},"name":"Liz
-        Longley","short_name":"Liz Longley","url":"https://seatgeek.com/liz-longley-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"liz-longley","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":28108}],"url":"https://seatgeek.com/liz-longley-tickets/conroe-texas-dosey-doe-music-cafe-2014-11-08-3-30-am/concert/2312482/","created_at":"2014-08-31T00:00:00","venue":{"city":"Conroe","name":"Dosey
-        Doe Music Cafe","extended_address":"Conroe, TX 77384","url":"https://seatgeek.com/venues/dosey-doe-music-cafe/tickets/","country":"US","display_location":"Conroe,
-        TX","links":[],"slug":"dosey-doe-music-cafe","state":"TX","score":0,"postal_code":"77384","location":{"lat":30.2356,"lon":-95.4656},"address":"463
-        FM 1488","timezone":"America/Chicago","id":22729},"short_title":"Liz Longley","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false}]}'
-    http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:13:09 GMT
-- request:
-    method: get
-    uri: https://api.seatgeek.com/2/events
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - ngx_openresty
-      Date:
-      - Sun, 09 Nov 2014 06:14:00 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '2763'
-      Connection:
-      - keep-alive
-      Etag:
-      - '"b7c853e663bb3167f8adc16dac84d58875342285"'
-      Cache-Control:
-      - max-age=1800
-      Access-Control-Allow-Origin:
-      - "*"
-      Accept-Ranges:
-      - bytes
-      X-Varnish:
-      - 1397002493 1396960101
-      Age:
-      - '1748'
-      Via:
-      - 1.1 varnish
-      X-Served-By:
-      - lb-ec2-05
-    body:
-      encoding: UTF-8
-      string: '{"meta":{"per_page":10,"total":124327,"geolocation":null,"took":6,"page":1},"events":[{"links":[],"id":2200183,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Angel
-        Olsen","announce_date":"2014-06-11T00:00:00","score":0.3854,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":10},"name":"Angel
-        Olsen","short_name":"Angel Olsen","url":"https://seatgeek.com/angel-olsen-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angel-olsen-8724cc/23743/huge.jpg","home_venue_id":null,"primary":true,"score":0.41096,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/angel-olsen-8724cc/23743/huge.jpg"},"slug":"angel-olsen","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":23743,"genres":[{"slug":"folk","primary":true,"name":"folk"}]}],"url":"https://seatgeek.com/angel-olsen-tickets/austin-texas-fun-fun-fun-festival-2014-11-08-3-30-am/concert/2200183/","created_at":"2014-06-11T00:00:00","venue":{"city":"Austin","name":"Fun
-        Fun Fun Festival","extended_address":"Austin, TX ","url":"https://seatgeek.com/venues/fun-fun-fun-festival/tickets/","country":"US","display_location":"Austin,
-        TX","links":[],"slug":"fun-fun-fun-festival","state":"TX","score":0,"postal_code":"","location":{"lat":30.2676,"lon":-97.743},"address":"Venue
-        to be announced","timezone":"America/Chicago","id":17653},"short_title":"Angel
-        Olsen","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2351330,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Kevin
-        Fowler","announce_date":"2014-10-01T00:00:00","score":0.47273,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Kevin
-        Fowler","short_name":"Kevin Fowler","url":"https://seatgeek.com/kevin-fowler-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/kevin-fowler-652d3a/1051/huge.jpg","home_venue_id":null,"primary":true,"score":0.35588,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/kevin-fowler-652d3a/1051/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-a08578/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-1e01d3/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/1051/kevin-fowler-6c98b6/small.jpg"},"slug":"kevin-fowler","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":1051,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/kevin-fowler-tickets/lubbock-texas-wild-west-2-2014-11-08-3-30-am/concert/2351330/","created_at":"2014-10-01T00:00:00","venue":{"city":"Lubbock","name":"Wild
-        West","extended_address":"Lubbock, TX 79404","url":"https://seatgeek.com/venues/wild-west-2/tickets/","country":"US","display_location":"Lubbock,
-        TX","links":[],"slug":"wild-west-2","state":"TX","score":0.60342,"postal_code":"79404","location":{"lat":33.5747,"lon":-101.844},"address":"2216
-        Interstate 27","timezone":"America/Chicago","id":6485},"short_title":"Kevin
-        Fowler","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1881551,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Rita
-        Hosking","announce_date":"2013-11-14T16:34:54","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Rita
-        Hosking","short_name":"Rita Hosking","url":"https://seatgeek.com/rita-hosking-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"rita-hosking","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":35711}],"url":"https://seatgeek.com/rita-hosking-tickets/lincoln-nebraska-lafta-2014-11-08-3-30-am/concert/1881551/","created_at":"2013-11-14T16:34:54","venue":{"city":"Lincoln","name":"LAFTA","extended_address":"Lincoln,
-        NE 68503","url":"https://seatgeek.com/venues/lafta/tickets/","country":"US","display_location":"Lincoln,
-        NE","links":[],"slug":"lafta","state":"NE","score":0,"postal_code":"68503","location":{"lat":40.81,"lon":-96.71},"address":"504
-        S. 7th","timezone":"America/Chicago","id":15523},"short_title":"Rita Hosking","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2077176,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Suzy
-        Bogguss","announce_date":"2014-04-07T00:00:00","score":0.56196,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":3},"name":"Suzy
-        Bogguss","short_name":"Suzy Bogguss","url":"https://seatgeek.com/suzy-bogguss-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/suzy-bogguss-d7a76f/9484/huge.jpg","home_venue_id":null,"primary":true,"score":0.58007,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/suzy-bogguss-d7a76f/9484/huge.jpg"},"slug":"suzy-bogguss","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":9484,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/suzy-bogguss-tickets/tyler-texas-liberty-hall-1-2014-11-08-3-30-am/concert/2077176/","created_at":"2014-04-07T00:00:00","venue":{"city":"Tyler","name":"Liberty
-        Hall","extended_address":"Tyler, TX 75702","url":"https://seatgeek.com/venues/liberty-hall-1/tickets/","country":"US","display_location":"Tyler,
-        TX","links":[],"slug":"liberty-hall-1","state":"TX","score":0,"postal_code":"75702","location":{"lat":32.35,"lon":-95.3},"address":"110
-        East Irwin","timezone":"America/Chicago","id":48943},"short_title":"Suzy Bogguss","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":1921834,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Lee
-        Greenwood","announce_date":"2013-12-08T16:19:12","score":0.53004,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Lee
-        Greenwood","short_name":"Lee Greenwood","url":"https://seatgeek.com/lee-greenwood-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.5495,"images":{},"slug":"lee-greenwood","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":9968,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/lee-greenwood-tickets/steelville-missouri-meramec-music-theatre-2014-11-08-3-30-am/concert/1921834/","created_at":"2013-12-08T16:19:12","venue":{"city":"Steelville","name":"Meramec
-        Music Theatre","extended_address":"Steelville, MO 65565","url":"https://seatgeek.com/venues/meramec-music-theatre/tickets/","country":"US","display_location":"Steelville,
-        MO","links":[],"slug":"meramec-music-theatre","state":"MO","score":0,"postal_code":"65565","location":{"lat":37.968,"lon":-91.3677},"address":"26
-        Missouri 8","timezone":"America/Chicago","id":39344},"short_title":"Lee Greenwood","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2072219,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Lost
-        and Nameless Orchestra","announce_date":"2014-03-30T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Lost
-        and Nameless Orchestra","short_name":"Lost and Nameless Orchestra","url":"https://seatgeek.com/lost-and-nameless-orchestra-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"lost-and-nameless-orchestra","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":35955}],"url":"https://seatgeek.com/lost-and-nameless-orchestra-tickets/fischer-texas-fischer-hall-2014-11-08-3-30-am/concert/2072219/","created_at":"2014-03-30T00:00:00","venue":{"city":"Fischer","name":"Fischer
-        Hall","extended_address":"Fischer, TX 78623","url":"https://seatgeek.com/venues/fischer-hall/tickets/","country":"US","display_location":"Fischer,
-        TX","links":[],"slug":"fischer-hall","state":"TX","score":0,"postal_code":"78623","location":{"lat":29.9769,"lon":-98.2657},"address":"115
-        Fischer Store Road","timezone":"America/Chicago","id":15700},"short_title":"Lost
-        and Nameless Orchestra","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2228090,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Architects","announce_date":"2014-06-30T00:00:00","score":0.33722,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":48},"name":"Architects","short_name":"Architects","url":"https://seatgeek.com/architects-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.36482,"images":{},"slug":"architects","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":16369,"genres":[{"slug":"metalcore","primary":true,"name":"metalcore"}]}],"url":"https://seatgeek.com/architects-tickets/mexico-city-el-plaza-condesa-2014-11-08-3-30-am/concert/2228090/","created_at":"2014-06-30T00:00:00","venue":{"city":"Mexico
-        City","name":"El Plaza Condesa","extended_address":"Mexico City, Mexico","url":"https://seatgeek.com/venues/el-plaza-condesa/tickets/","country":"Mexico","display_location":"Mexico
-        City, Mexico","links":[],"slug":"el-plaza-condesa","state":"??","score":0,"postal_code":"06140","location":{"lat":19.3867,"lon":-99.1415},"address":"4
-        Juan Escutia","timezone":"America/Mexico_City","id":17213},"short_title":"Architects","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2302414,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jill
-        Barber","announce_date":"2014-08-25T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":7},"name":"Jill
-        Barber","short_name":"Jill Barber","url":"https://seatgeek.com/jill-barber-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jill-barber-40fdcd/7919/huge.jpg","home_venue_id":null,"primary":true,"score":0,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/jill-barber-40fdcd/7919/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-04f533/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-198275/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/7919/jill-barber-90bf62/small.jpg"},"slug":"jill-barber","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":7919,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/jill-barber-tickets/regina-royal-saskatchewan-museum-theater-2014-11-08-3-30-am/concert/2302414/","created_at":"2014-08-25T00:00:00","venue":{"city":"Regina","name":"Royal
-        Saskatchewan Museum Theater","extended_address":"Regina, Canada","url":"https://seatgeek.com/venues/royal-saskatchewan-museum-theater/tickets/","country":"Canada","display_location":"Regina,
-        Canada","links":[],"slug":"royal-saskatchewan-museum-theater","state":"SK","score":0,"postal_code":"S4P4W7","location":{"lat":50.4389,"lon":-104.618},"address":"2445
-        Albert St","timezone":"America/Regina","id":73746},"short_title":"Jill Barber","datetime_utc":"2014-11-08T09:30:00","datetime_tbd":false},{"links":[],"id":2348533,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Aaron
-        Watson","announce_date":"2014-10-01T00:00:00","score":0.33797,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":15},"name":"Aaron
-        Watson","short_name":"Aaron Watson","url":"https://seatgeek.com/aaron-watson-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/aaron-watson-3492ae/138/huge.jpg","home_venue_id":null,"primary":true,"score":0.36554,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/aaron-watson-3492ae/138/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-f41900/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-1a68ee/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/138/aaron-watson-3dd2cd/small.jpg"},"slug":"aaron-watson","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":138,"genres":[{"slug":"country","primary":true,"name":"country"}]}],"url":"https://seatgeek.com/aaron-watson-tickets/stafford-texas-redneck-country-club-2014-11-08-3-30-am/concert/2348533/","created_at":"2014-10-01T00:00:00","venue":{"city":"Stafford","name":"Redneck
-        Country Club","extended_address":"Stafford, TX 77477","url":"https://seatgeek.com/venues/redneck-country-club/tickets/","country":"US","display_location":"Stafford,
-        TX","links":[],"slug":"redneck-country-club","state":"TX","score":0,"postal_code":"77477","location":{"lat":29.6423,"lon":-95.5704},"address":"11110
-        West Airport Boulevard","timezone":"America/Chicago","id":64481},"short_title":"Aaron
-        Watson","datetime_utc":"2014-11-08T09:30:00","datetime_tbd":false},{"links":[],"id":2312482,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Liz
-        Longley","announce_date":"2014-08-31T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T06:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":11},"name":"Liz
-        Longley","short_name":"Liz Longley","url":"https://seatgeek.com/liz-longley-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"liz-longley","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":28108}],"url":"https://seatgeek.com/liz-longley-tickets/conroe-texas-dosey-doe-music-cafe-2014-11-08-3-30-am/concert/2312482/","created_at":"2014-08-31T00:00:00","venue":{"city":"Conroe","name":"Dosey
-        Doe Music Cafe","extended_address":"Conroe, TX 77384","url":"https://seatgeek.com/venues/dosey-doe-music-cafe/tickets/","country":"US","display_location":"Conroe,
-        TX","links":[],"slug":"dosey-doe-music-cafe","state":"TX","score":0,"postal_code":"77384","location":{"lat":30.2356,"lon":-95.4656},"address":"463
-        FM 1488","timezone":"America/Chicago","id":22729},"short_title":"Liz Longley","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false}]}'
-    http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:14:48 GMT
-- request:
-    method: get
-    uri: https://api.seatgeek.com/2/events
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - ngx_openresty
-      Date:
-      - Sun, 09 Nov 2014 06:15:55 GMT
+      - Sun, 09 Nov 2014 06:26:46 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -280,9 +78,9 @@ http_interactions:
       Accept-Ranges:
       - bytes
       X-Varnish:
-      - 658657885 658629479
+      - 658674016 658629479
       Age:
-      - '1143'
+      - '1794'
       Via:
       - 1.1 varnish
       X-Served-By:
@@ -343,5 +141,213 @@ http_interactions:
         TX","links":[],"slug":"dosey-doe-music-cafe","state":"TX","score":0,"postal_code":"77384","location":{"lat":30.2356,"lon":-95.4656},"address":"463
         FM 1488","timezone":"America/Chicago","id":22729},"short_title":"Liz Longley","datetime_utc":"2014-11-08T09:30:00","general_admission":true,"datetime_tbd":false}]}'
     http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:16:43 GMT
+  recorded_at: Sun, 09 Nov 2014 06:27:34 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:27:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2761'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"5f55f09ce0340d501ea1e2659f25264c13605ef3"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 480383688 480376830
+      Age:
+      - '279'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":124126,"geolocation":null,"took":10,"page":1},"events":[{"links":[],"id":2235969,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Count
+        Bass D with Blueprint","announce_date":"2014-07-06T00:00:00","score":0.44189,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Blueprint","short_name":"Blueprint","url":"https://seatgeek.com/blueprint-tickets","type":"band","image":null,"home_venue_id":null,"slug":"blueprint","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":18915},{"stats":{"event_count":1},"name":"Count
+        Bass D","short_name":"Count Bass D","url":"https://seatgeek.com/count-bass-d-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"count-bass-d","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":109213,"genres":[{"slug":"hip-hop","primary":true,"name":"hip-hop"}]}],"url":"https://seatgeek.com/count-bass-d-with-blueprint-tickets/salt-lake-city-utah-the-depot-2014-11-08-3-30-am/concert/2235969/","created_at":"2014-07-06T00:00:00","venue":{"city":"Salt
+        Lake City","name":"The Depot","extended_address":"Salt Lake City, UT 84101","url":"https://seatgeek.com/venues/the-depot/tickets/","country":"US","display_location":"Salt
+        Lake City, UT","links":[],"slug":"the-depot","state":"UT","score":0.52942,"postal_code":"84101","location":{"lat":40.7389,"lon":-111.91},"address":"13
+        N. 400 West","timezone":"America/Denver","id":624},"short_title":"Count Bass
+        D with Blueprint","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2371415,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jenn
+        Grant with Matthew Barber","announce_date":"2014-10-13T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"Matthew
+        Barber","short_name":"Matthew Barber","url":"https://seatgeek.com/matthew-barber-tickets","type":"band","image":null,"home_venue_id":null,"slug":"matthew-barber","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17800,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]},{"stats":{"event_count":9},"name":"Jenn
+        Grant","short_name":"Jenn Grant","url":"https://seatgeek.com/jenn-grant-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"jenn-grant","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":29023,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/jenn-grant-with-matthew-barber-tickets/banff-the-banff-centre-2014-11-08-3-30-am/concert/2371415/","created_at":"2014-10-13T00:00:00","venue":{"city":"Banff","name":"The
+        Banff Centre","extended_address":"Banff, Canada","url":"https://seatgeek.com/venues/the-banff-centre/tickets/","country":"Canada","display_location":"Banff,
+        Canada","links":[],"slug":"the-banff-centre","state":"AB","score":0,"postal_code":"T1L
+        1H5","location":{"lat":51.183,"lon":-115.58},"address":"107 Tunnel Mountain
+        Dr","timezone":"America/Edmonton","id":55063},"short_title":"Jenn Grant with
+        Matthew Barber","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2366538,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Koffin
+        Kats","announce_date":"2014-10-09T00:00:00","score":0.16857,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Koffin
+        Kats","short_name":"Koffin Kats","url":"https://seatgeek.com/koffin-kats-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.2033,"images":{},"slug":"koffin-kats","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17040,"genres":[{"slug":"rockabilly","primary":true,"name":"rockabilly"}]}],"url":"https://seatgeek.com/koffin-kats-tickets/albuquerque-new-mexico-launchpad-2014-11-08-3-30-am/concert/2366538/","created_at":"2014-10-09T00:00:00","venue":{"city":"Albuquerque","name":"Launchpad","extended_address":"Albuquerque,
+        NM 87102","url":"https://seatgeek.com/venues/launchpad/tickets/","country":"US","display_location":"Albuquerque,
+        NM","links":[],"slug":"launchpad","state":"NM","score":0,"postal_code":"87102","location":{"lat":35.0849,"lon":-106.654},"address":"618
+        Central Ave. SW","timezone":"America/Denver","id":1706},"short_title":"Koffin
+        Kats","datetime_utc":"2014-11-08T10:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2373095,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"The
+        Trews","announce_date":"2014-10-13T00:00:00","score":0.35753,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":17},"name":"The
+        Trews","short_name":"The Trews","url":"https://seatgeek.com/the-trews-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-trews-f83301/1870/huge.jpg","home_venue_id":null,"primary":true,"score":0.38427,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-trews-f83301/1870/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-cfaa41/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-4f4440/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-6e119c/small.jpg"},"slug":"the-trews","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":1870,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/the-trews-tickets/banff-wild-bill-s-1-2014-11-08-3-30-am/concert/2373095/","created_at":"2014-10-13T00:00:00","venue":{"city":"Banff","name":"Wild
+        Bill''s","extended_address":"Banff, Canada","url":"https://seatgeek.com/venues/wild-bill-s-1/tickets/","country":"Canada","display_location":"Banff,
+        Canada","links":[],"slug":"wild-bill-s-1","state":"AB","score":0,"postal_code":"T1L1C4","location":{"lat":51.1767,"lon":-115.571},"address":"201
+        Banff Av","timezone":"America/Edmonton","id":41737},"short_title":"The Trews","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2351401,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Tennis
+        (Band)","announce_date":"2014-10-01T00:00:00","score":0.54907,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Tennis
+        (Band)","short_name":"Tennis (Band)","url":"https://seatgeek.com/tennis-band-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tennis-band-8571bb/6739/huge.jpg","home_venue_id":null,"primary":true,"score":0.56217,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tennis-band-8571bb/6739/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-7015a0/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-8b2d5e/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-4a519b/small.jpg"},"slug":"tennis-band","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":6739,"genres":[{"slug":"indie-pop","primary":true,"name":"indie-pop"}]}],"url":"https://seatgeek.com/tennis-band-tickets/aspen-colorado-belly-up-aspen-2014-11-08-3-30-am/concert/2351401/","created_at":"2014-10-01T00:00:00","venue":{"city":"Aspen","name":"Belly
+        Up Aspen","extended_address":"Aspen, CO 81611","url":"https://seatgeek.com/venues/belly-up-aspen/tickets/","country":"US","display_location":"Aspen,
+        CO","links":[],"slug":"belly-up-aspen","state":"CO","score":0.5267,"postal_code":"81611","location":{"lat":39.1875,"lon":-106.819},"address":"450
+        South Galena St","timezone":"America/Denver","id":276},"short_title":"Tennis
+        (Band)","datetime_utc":"2014-11-08T10:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2175558,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"A.J.
+        Croce","announce_date":"2014-05-28T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"A.J.
+        Croce","short_name":"A.J. Croce","url":"https://seatgeek.com/a-j-croce-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"a-j-croce","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":15087,"genres":[{"slug":"pop","primary":true,"name":"pop"}]}],"url":"https://seatgeek.com/a-j-croce-tickets/fort-collins-colorado-armory-event-hall-2014-11-08-3-30-am/concert/2175558/","created_at":"2014-05-28T00:00:00","venue":{"city":"Fort
+        Collins","name":"Armory Event Hall","extended_address":"Fort Collins, CO 80521","url":"https://seatgeek.com/venues/armory-event-hall/tickets/","country":"US","display_location":"Fort
+        Collins, CO","links":[],"slug":"armory-event-hall","state":"CO","score":0,"postal_code":"80521","location":{"lat":40.5874,"lon":-105.073},"address":"314
+        East Mountain Ave.","timezone":"America/Denver","id":61310},"short_title":"A.J.
+        Croce","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2366030,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Pickwick","announce_date":"2014-10-09T00:00:00","score":0.36402,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Pickwick","short_name":"Pickwick","url":"https://seatgeek.com/pickwick-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/pickwick-1a214e/17737/huge.jpg","home_venue_id":null,"primary":true,"score":0.39049,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/pickwick-1a214e/17737/huge.jpg"},"slug":"pickwick","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17737}],"url":"https://seatgeek.com/pickwick-tickets/bellingham-washington-wild-buffalo-house-of-music-2014-11-08-3-30-am/concert/2366030/","created_at":"2014-10-09T00:00:00","venue":{"city":"Bellingham","name":"Wild
+        Buffalo House of Music","extended_address":"Bellingham, WA 98225","url":"https://seatgeek.com/venues/wild-buffalo-house-of-music/tickets/","country":"US","display_location":"Bellingham,
+        WA","links":[],"slug":"wild-buffalo-house-of-music","state":"WA","score":0,"postal_code":"98225","location":{"lat":48.7507,"lon":-122.481},"address":"208
+        W. Holly St.","timezone":"America/Los_Angeles","id":9470},"short_title":"Pickwick","datetime_utc":"2014-11-08T11:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2373255,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Stonebridge","announce_date":"2014-10-13T00:00:00","score":0.33368,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Stonebridge","short_name":"Stonebridge","url":"https://seatgeek.com/stonebridge-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.36143,"images":{},"slug":"stonebridge","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":46217,"genres":[{"slug":"house","primary":true,"name":"house"}]}],"url":"https://seatgeek.com/stonebridge-tickets/vancouver-bar-none-2014-11-08-3-30-am/concert/2373255/","created_at":"2014-10-13T00:00:00","venue":{"city":"Vancouver","name":"BAR
+        NONE","extended_address":"Vancouver, Canada","url":"https://seatgeek.com/venues/bar-none/tickets/","country":"Canada","display_location":"Vancouver,
+        Canada","links":[],"slug":"bar-none","state":"BC","score":0,"postal_code":"V6B
+        2S8","location":{"lat":49.2743,"lon":-123.124},"address":"1222 Hamilton St.","timezone":"America/Vancouver","id":28770},"short_title":"Stonebridge","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false},{"links":[],"id":2129532,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Oprah''s
+        The Life You Want Weekend","announce_date":"2014-04-29T00:00:00","score":0.65829,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":3},"name":"Oprah''s
+        The Life You Want Weekend","short_name":"Oprah''s The Life You Want Weekend","url":"https://seatgeek.com/oprah-s-the-life-you-want-weekend-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.636,"images":{},"slug":"oprah-s-the-life-you-want-weekend","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":277048}],"url":"https://seatgeek.com/oprah-s-the-life-you-want-weekend-tickets/seattle-washington-key-arena-2014-11-08-3-30-am/concert/2129532/","created_at":"2014-04-29T00:00:00","venue":{"city":"Seattle","name":"Key
+        Arena","extended_address":"Seattle, WA 98109","url":"https://seatgeek.com/venues/key-arena/tickets/","country":"US","display_location":"Seattle,
+        WA","links":[],"slug":"key-arena","state":"WA","score":0.75844,"postal_code":"98109","location":{"lat":47.6222,"lon":-122.355},"address":"305
+        Harrison Street","timezone":"America/Los_Angeles","id":176},"short_title":"Oprah''s
+        The Life You Want Weekend","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false},{"links":[],"id":2076612,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Oprah
+        Winfrey - Seattle","announce_date":"2014-04-01T00:00:00","score":0.67992,"date_tbd":false,"type":"theater","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"performers":[{"stats":{"event_count":4},"name":"Oprah
+        Winfrey","short_name":"Oprah Winfrey","url":"https://seatgeek.com/oprah-winfrey-tickets","type":"theater","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/oprah-winfrey-c706c2/14505/huge.jpg","home_venue_id":null,"primary":true,"score":0.66968,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/oprah-winfrey-c706c2/14505/huge.jpg"},"slug":"oprah-winfrey","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"has_upcoming_events":true,"id":14505}],"url":"https://seatgeek.com/oprah-winfrey-seattle-tickets/theater/2014-11-08-3-30-am/2076612/","created_at":"2014-04-01T00:00:00","venue":{"city":"Seattle","name":"Key
+        Arena","extended_address":"Seattle, WA 98109","url":"https://seatgeek.com/venues/key-arena/tickets/","country":"US","display_location":"Seattle,
+        WA","links":[],"slug":"key-arena","state":"WA","score":0.75844,"postal_code":"98109","location":{"lat":47.6222,"lon":-122.355},"address":"305
+        Harrison Street","timezone":"America/Los_Angeles","id":176},"short_title":"Oprah
+        Winfrey - Seattle","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:28:20 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:38:56 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2760'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"9b3afb47a0c5159c70e29cb8419d4965bfe15eb9"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 366155337 366120494
+      Age:
+      - '1445'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":124128,"geolocation":null,"took":6,"page":1},"events":[{"links":[],"id":2371415,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Jenn
+        Grant with Matthew Barber","announce_date":"2014-10-13T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":4},"name":"Matthew
+        Barber","short_name":"Matthew Barber","url":"https://seatgeek.com/matthew-barber-tickets","type":"band","image":null,"home_venue_id":null,"slug":"matthew-barber","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17800,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]},{"stats":{"event_count":9},"name":"Jenn
+        Grant","short_name":"Jenn Grant","url":"https://seatgeek.com/jenn-grant-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"jenn-grant","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":29023,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/jenn-grant-with-matthew-barber-tickets/banff-the-banff-centre-2014-11-08-3-30-am/concert/2371415/","created_at":"2014-10-13T00:00:00","venue":{"city":"Banff","name":"The
+        Banff Centre","extended_address":"Banff, Canada","url":"https://seatgeek.com/venues/the-banff-centre/tickets/","country":"Canada","display_location":"Banff,
+        Canada","links":[],"slug":"the-banff-centre","state":"AB","score":0,"postal_code":"T1L
+        1H5","location":{"lat":51.183,"lon":-115.58},"address":"107 Tunnel Mountain
+        Dr","timezone":"America/Edmonton","id":55063},"short_title":"Jenn Grant with
+        Matthew Barber","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2235969,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Count
+        Bass D with Blueprint","announce_date":"2014-07-06T00:00:00","score":0.44189,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Blueprint","short_name":"Blueprint","url":"https://seatgeek.com/blueprint-tickets","type":"band","image":null,"home_venue_id":null,"slug":"blueprint","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":18915},{"stats":{"event_count":1},"name":"Count
+        Bass D","short_name":"Count Bass D","url":"https://seatgeek.com/count-bass-d-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"count-bass-d","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":109213,"genres":[{"slug":"hip-hop","primary":true,"name":"hip-hop"}]}],"url":"https://seatgeek.com/count-bass-d-with-blueprint-tickets/salt-lake-city-utah-the-depot-2014-11-08-3-30-am/concert/2235969/","created_at":"2014-07-06T00:00:00","venue":{"city":"Salt
+        Lake City","name":"The Depot","extended_address":"Salt Lake City, UT 84101","url":"https://seatgeek.com/venues/the-depot/tickets/","country":"US","display_location":"Salt
+        Lake City, UT","links":[],"slug":"the-depot","state":"UT","score":0.52942,"postal_code":"84101","location":{"lat":40.7389,"lon":-111.91},"address":"13
+        N. 400 West","timezone":"America/Denver","id":624},"short_title":"Count Bass
+        D with Blueprint","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2373095,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"The
+        Trews","announce_date":"2014-10-13T00:00:00","score":0.35753,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":17},"name":"The
+        Trews","short_name":"The Trews","url":"https://seatgeek.com/the-trews-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-trews-f83301/1870/huge.jpg","home_venue_id":null,"primary":true,"score":0.38427,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-trews-f83301/1870/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-cfaa41/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-4f4440/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/1870/the-trews-6e119c/small.jpg"},"slug":"the-trews","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":1870,"genres":[{"slug":"canadian","primary":true,"name":"canadian"}]}],"url":"https://seatgeek.com/the-trews-tickets/banff-wild-bill-s-1-2014-11-08-3-30-am/concert/2373095/","created_at":"2014-10-13T00:00:00","venue":{"city":"Banff","name":"Wild
+        Bill''s","extended_address":"Banff, Canada","url":"https://seatgeek.com/venues/wild-bill-s-1/tickets/","country":"Canada","display_location":"Banff,
+        Canada","links":[],"slug":"wild-bill-s-1","state":"AB","score":0,"postal_code":"T1L1C4","location":{"lat":51.1767,"lon":-115.571},"address":"201
+        Banff Av","timezone":"America/Edmonton","id":41737},"short_title":"The Trews","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2366538,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Koffin
+        Kats","announce_date":"2014-10-09T00:00:00","score":0.16857,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Koffin
+        Kats","short_name":"Koffin Kats","url":"https://seatgeek.com/koffin-kats-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.2033,"images":{},"slug":"koffin-kats","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17040,"genres":[{"slug":"rockabilly","primary":true,"name":"rockabilly"}]}],"url":"https://seatgeek.com/koffin-kats-tickets/albuquerque-new-mexico-launchpad-2014-11-08-3-30-am/concert/2366538/","created_at":"2014-10-09T00:00:00","venue":{"city":"Albuquerque","name":"Launchpad","extended_address":"Albuquerque,
+        NM 87102","url":"https://seatgeek.com/venues/launchpad/tickets/","country":"US","display_location":"Albuquerque,
+        NM","links":[],"slug":"launchpad","state":"NM","score":0,"postal_code":"87102","location":{"lat":35.0849,"lon":-106.654},"address":"618
+        Central Ave. SW","timezone":"America/Denver","id":1706},"short_title":"Koffin
+        Kats","datetime_utc":"2014-11-08T10:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2351401,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Tennis
+        (Band)","announce_date":"2014-10-01T00:00:00","score":0.54907,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"Tennis
+        (Band)","short_name":"Tennis (Band)","url":"https://seatgeek.com/tennis-band-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tennis-band-8571bb/6739/huge.jpg","home_venue_id":null,"primary":true,"score":0.56217,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/tennis-band-8571bb/6739/huge.jpg","medium":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-7015a0/medium.jpg","large":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-8b2d5e/large.jpg","small":"https://chairnerd.global.ssl.fastly.net/images/performers/6739/tennis-band-4a519b/small.jpg"},"slug":"tennis-band","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":6739,"genres":[{"slug":"indie-pop","primary":true,"name":"indie-pop"}]}],"url":"https://seatgeek.com/tennis-band-tickets/aspen-colorado-belly-up-aspen-2014-11-08-3-30-am/concert/2351401/","created_at":"2014-10-01T00:00:00","venue":{"city":"Aspen","name":"Belly
+        Up Aspen","extended_address":"Aspen, CO 81611","url":"https://seatgeek.com/venues/belly-up-aspen/tickets/","country":"US","display_location":"Aspen,
+        CO","links":[],"slug":"belly-up-aspen","state":"CO","score":0.5267,"postal_code":"81611","location":{"lat":39.1875,"lon":-106.819},"address":"450
+        South Galena St","timezone":"America/Denver","id":276},"short_title":"Tennis
+        (Band)","datetime_utc":"2014-11-08T10:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2175558,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"A.J.
+        Croce","announce_date":"2014-05-28T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T07:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":2},"name":"A.J.
+        Croce","short_name":"A.J. Croce","url":"https://seatgeek.com/a-j-croce-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"a-j-croce","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":15087,"genres":[{"slug":"pop","primary":true,"name":"pop"}]}],"url":"https://seatgeek.com/a-j-croce-tickets/fort-collins-colorado-armory-event-hall-2014-11-08-3-30-am/concert/2175558/","created_at":"2014-05-28T00:00:00","venue":{"city":"Fort
+        Collins","name":"Armory Event Hall","extended_address":"Fort Collins, CO 80521","url":"https://seatgeek.com/venues/armory-event-hall/tickets/","country":"US","display_location":"Fort
+        Collins, CO","links":[],"slug":"armory-event-hall","state":"CO","score":0,"postal_code":"80521","location":{"lat":40.5874,"lon":-105.073},"address":"314
+        East Mountain Ave.","timezone":"America/Denver","id":61310},"short_title":"A.J.
+        Croce","datetime_utc":"2014-11-08T10:30:00","datetime_tbd":false},{"links":[],"id":2366030,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Pickwick","announce_date":"2014-10-09T00:00:00","score":0.36402,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Pickwick","short_name":"Pickwick","url":"https://seatgeek.com/pickwick-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/pickwick-1a214e/17737/huge.jpg","home_venue_id":null,"primary":true,"score":0.39049,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/pickwick-1a214e/17737/huge.jpg"},"slug":"pickwick","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":17737}],"url":"https://seatgeek.com/pickwick-tickets/bellingham-washington-wild-buffalo-house-of-music-2014-11-08-3-30-am/concert/2366030/","created_at":"2014-10-09T00:00:00","venue":{"city":"Bellingham","name":"Wild
+        Buffalo House of Music","extended_address":"Bellingham, WA 98225","url":"https://seatgeek.com/venues/wild-buffalo-house-of-music/tickets/","country":"US","display_location":"Bellingham,
+        WA","links":[],"slug":"wild-buffalo-house-of-music","state":"WA","score":0,"postal_code":"98225","location":{"lat":48.7507,"lon":-122.481},"address":"208
+        W. Holly St.","timezone":"America/Los_Angeles","id":9470},"short_title":"Pickwick","datetime_utc":"2014-11-08T11:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2373255,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Stonebridge","announce_date":"2014-10-13T00:00:00","score":0.33368,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Stonebridge","short_name":"Stonebridge","url":"https://seatgeek.com/stonebridge-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.36143,"images":{},"slug":"stonebridge","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":46217,"genres":[{"slug":"house","primary":true,"name":"house"}]}],"url":"https://seatgeek.com/stonebridge-tickets/vancouver-bar-none-2014-11-08-3-30-am/concert/2373255/","created_at":"2014-10-13T00:00:00","venue":{"city":"Vancouver","name":"BAR
+        NONE","extended_address":"Vancouver, Canada","url":"https://seatgeek.com/venues/bar-none/tickets/","country":"Canada","display_location":"Vancouver,
+        Canada","links":[],"slug":"bar-none","state":"BC","score":0,"postal_code":"V6B
+        2S8","location":{"lat":49.2743,"lon":-123.124},"address":"1222 Hamilton St.","timezone":"America/Vancouver","id":28770},"short_title":"Stonebridge","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false},{"links":[],"id":2129532,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Oprah''s
+        The Life You Want Weekend","announce_date":"2014-04-29T00:00:00","score":0.65829,"date_tbd":false,"type":"concert","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":3},"name":"Oprah''s
+        The Life You Want Weekend","short_name":"Oprah''s The Life You Want Weekend","url":"https://seatgeek.com/oprah-s-the-life-you-want-weekend-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.636,"images":{},"slug":"oprah-s-the-life-you-want-weekend","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":277048}],"url":"https://seatgeek.com/oprah-s-the-life-you-want-weekend-tickets/seattle-washington-key-arena-2014-11-08-3-30-am/concert/2129532/","created_at":"2014-04-29T00:00:00","venue":{"city":"Seattle","name":"Key
+        Arena","extended_address":"Seattle, WA 98109","url":"https://seatgeek.com/venues/key-arena/tickets/","country":"US","display_location":"Seattle,
+        WA","links":[],"slug":"key-arena","state":"WA","score":0.75844,"postal_code":"98109","location":{"lat":47.6222,"lon":-122.355},"address":"305
+        Harrison Street","timezone":"America/Los_Angeles","id":176},"short_title":"Oprah''s
+        The Life You Want Weekend","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false},{"links":[],"id":2076612,"stats":{"listing_count":0,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Oprah
+        Winfrey - Seattle","announce_date":"2014-04-01T00:00:00","score":0.67992,"date_tbd":false,"type":"theater","datetime_local":"2014-11-08T03:30:00","visible_until_utc":"2014-11-09T08:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"performers":[{"stats":{"event_count":4},"name":"Oprah
+        Winfrey","short_name":"Oprah Winfrey","url":"https://seatgeek.com/oprah-winfrey-tickets","type":"theater","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/oprah-winfrey-c706c2/14505/huge.jpg","home_venue_id":null,"primary":true,"score":0.66968,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/oprah-winfrey-c706c2/14505/huge.jpg"},"slug":"oprah-winfrey","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"has_upcoming_events":true,"id":14505}],"url":"https://seatgeek.com/oprah-winfrey-seattle-tickets/theater/2014-11-08-3-30-am/2076612/","created_at":"2014-04-01T00:00:00","venue":{"city":"Seattle","name":"Key
+        Arena","extended_address":"Seattle, WA 98109","url":"https://seatgeek.com/venues/key-arena/tickets/","country":"US","display_location":"Seattle,
+        WA","links":[],"slug":"key-arena","state":"WA","score":0.75844,"postal_code":"98109","location":{"lat":47.6222,"lon":-122.355},"address":"305
+        Harrison Street","timezone":"America/Los_Angeles","id":176},"short_title":"Oprah
+        Winfrey - Seattle","datetime_utc":"2014-11-08T11:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:39:45 GMT
 recorded_with: VCR 2.9.3

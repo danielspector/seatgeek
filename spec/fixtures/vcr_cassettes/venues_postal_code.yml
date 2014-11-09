@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/venues?postal_code=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ngx_openresty
+      Date:
+      - Sun, 09 Nov 2014 06:46:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1121'
+      Connection:
+      - keep-alive
+      Etag:
+      - '"324290648326ef036f61eccf5af5f6585ebb1aeb"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      X-Varnish:
+      - 523713756 523709890
+      Age:
+      - '165'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-ec2-05
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":2048,"geolocation":{"city":"New York","display_name":"New
+        York, NY","country":"US","lon":-73.9972,"range":"50mi","state":"NY","postal_code":"10001","lat":40.7517},"took":3,"page":1},"venues":[{"city":"East
+        Rutherford","name":"MetLife Stadium","extended_address":"East Rutherford,
+        NJ 07073","url":"https://seatgeek.com/venues/metlife-stadium/tickets/","country":"US","display_location":"East
+        Rutherford, NJ","links":[],"slug":"metlife-stadium","state":"NJ","score":0.95762,"postal_code":"07073","location":{"lat":40.8128,"lon":-74.0742},"address":"1
+        MetLife Stadium Drive","timezone":"America/New_York","id":1587},{"city":"Elmont","name":"Belmont
+        Park","extended_address":"Elmont, NY 11003","url":"https://seatgeek.com/venues/belmont-park/tickets/","country":"US","display_location":"Elmont,
+        NY","links":[],"slug":"belmont-park","state":"NY","score":0.95373,"postal_code":"11003","location":{"lat":40.7092,"lon":-73.7216},"address":"2150
+        Hempstead Turnpike","timezone":"America/New_York","id":1651},{"city":"Bronx","name":"Yankee
+        Stadium","extended_address":"Bronx, NY 10451","url":"https://seatgeek.com/venues/yankee-stadium/tickets/","country":"US","display_location":"Bronx,
+        NY","links":[],"slug":"yankee-stadium","state":"NY","score":0.92189,"postal_code":"10451","location":{"lat":40.8278,"lon":-73.9276},"address":"1
+        East 161st Street","timezone":"America/New_York","id":8},{"city":"New York","name":"Madison
+        Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
+        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        Pennsylvania Plaza","timezone":"America/New_York","id":93},{"city":"Flushing","name":"Arthur
+        Ashe Stadium","extended_address":"Flushing, NY 11368","url":"https://seatgeek.com/venues/arthur-ashe-stadium/tickets/","country":"US","display_location":"Flushing,
+        NY","links":[],"slug":"arthur-ashe-stadium","state":"NY","score":0.88435,"postal_code":"11368","location":{"lat":40.7636,"lon":-73.83},"address":"1
+        Flushing Meadows Corona Park Road","timezone":"America/New_York","id":2978},{"city":"Brooklyn","name":"Barclays
+        Center","extended_address":"Brooklyn, NY 11217","url":"https://seatgeek.com/venues/barclays-center/tickets/","country":"US","display_location":"Brooklyn,
+        NY","links":[],"slug":"barclays-center","state":"NY","score":0.85632,"postal_code":"11217","location":{"lat":40.6837,"lon":-73.9788},"address":"620
+        Atlantic Ave.","timezone":"America/New_York","id":7546},{"city":"Forest Hills","name":"Forest
+        Hills Stadium","extended_address":"Forest Hills, NY 11375","url":"https://seatgeek.com/venues/forest-hills-stadium/tickets/","country":"US","display_location":"Forest
+        Hills, NY","links":[],"slug":"forest-hills-stadium","state":"NY","score":0.83548,"postal_code":"11375","location":{"lat":40.7196,"lon":-73.8489},"address":"1
+        Tennis Place","timezone":"America/New_York","id":53860},{"city":"Flushing","name":"Citi
+        Field","extended_address":"Flushing, NY 11368","url":"https://seatgeek.com/venues/citi-field/tickets/","country":"US","display_location":"Flushing,
+        NY","links":[],"slug":"citi-field","state":"NY","score":0.80311,"postal_code":"11368","location":{"lat":40.7573,"lon":-73.8443},"address":"1
+        Roosevelt Avenue","timezone":"America/New_York","id":3},{"city":"Wantagh","name":"Nikon
+        at Jones Beach Theater","extended_address":"Wantagh, NY 11793","url":"https://seatgeek.com/venues/nikon-at-jones-beach-theater/tickets/","country":"US","display_location":"Wantagh,
+        NY","links":[],"slug":"nikon-at-jones-beach-theater","state":"NY","score":0.79948,"postal_code":"11793","location":{"lat":40.5951,"lon":-73.521},"address":"1000
+        Ocean Parkway","timezone":"America/New_York","id":64},{"city":"Newark","name":"Prudential
+        Center","extended_address":"Newark, NJ 07102","url":"https://seatgeek.com/venues/prudential-center/tickets/","country":"US","display_location":"Newark,
+        NJ","links":[],"slug":"prudential-center","state":"NJ","score":0.79198,"postal_code":"07102","location":{"lat":40.7334,"lon":-74.1701},"address":"165
+        Mulberry Street","timezone":"America/New_York","id":1500}]}'
+    http_version: 
+  recorded_at: Sun, 09 Nov 2014 06:46:58 GMT
+recorded_with: VCR 2.9.3

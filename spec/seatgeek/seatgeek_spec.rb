@@ -13,7 +13,7 @@ describe SeatGeek::Request do
     end
 
     it "should retrieve all events" do
-      VCR.use_cassette('events_all', record: :all) do
+      VCR.use_cassette('events_all', record: :once) do
         result = SeatGeek::Events.all
         expect(result).to be_a Array
         expect(result.first.title).to eq "Angel Olsen"

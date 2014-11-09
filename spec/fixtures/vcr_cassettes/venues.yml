@@ -206,7 +206,7 @@ http_interactions:
       Server:
       - ngx_openresty
       Date:
-      - Sun, 09 Nov 2014 06:15:55 GMT
+      - Sun, 09 Nov 2014 06:46:19 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -214,13 +214,13 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - '"f469543e16756ee8d0fe4627578c9b29d1dd064c"'
+      - '"5ca8a24cbef58065bd7287f916ff75b446d15f5d"'
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
       - "*"
       X-Varnish:
-      - '523671007'
+      - '658700861'
       Age:
       - '0'
       Via:
@@ -229,10 +229,10 @@ http_interactions:
       - lb-ec2-05
     body:
       encoding: UTF-8
-      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":4,"page":1},"venues":[{"city":"New
+      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":2,"page":1},"venues":[{"city":"New
         York","name":"Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
         York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
         Pennsylvania Plaza","timezone":"America/New_York","id":93}]}'
     http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:16:43 GMT
+  recorded_at: Sun, 09 Nov 2014 06:47:07 GMT
 recorded_with: VCR 2.9.3
