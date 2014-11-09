@@ -1,5 +1,5 @@
 module SeatGeek
-  class Venues < Connection
+  class Venues < Request
     BASE_PATH = "/venues"
   end
 end

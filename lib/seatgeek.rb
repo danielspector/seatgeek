@@ -6,7 +6,7 @@ require 'multi_json'
 require "active_support/all"
 
 module SeatGeek
-  class Connection
+  class Request
     BASE_URI = 'https://api.seatgeek.com/2'
     BASE_PATH = nil
     class << self

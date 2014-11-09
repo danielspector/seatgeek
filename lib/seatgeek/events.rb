@@ -1,5 +1,5 @@
 module SeatGeek
-  class Events < Connection
+  class Events < Request
     BASE_PATH = "/events"
 
   end

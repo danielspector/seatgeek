@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'seatgeek/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "seatgeek"
+  spec.name          = "seatgeek-ruby"
   spec.version       = SeatGeek::VERSION
   spec.authors       = ["Daniel Spector"]
   spec.email         = ["daniel.spector@lifebooker.com"]

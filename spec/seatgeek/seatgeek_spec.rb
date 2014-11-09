@@ -1,7 +1,7 @@
-describe SeatGeek::Connection do
+describe SeatGeek::Request do
   context "defaults" do
     it "should set the proper base uri" do
-      expect(SeatGeek::Connection::BASE_URI).to eq "https://api.seatgeek.com/2"
+      expect(SeatGeek::Request::BASE_URI).to eq "https://api.seatgeek.com/2"
     end
   end
 
