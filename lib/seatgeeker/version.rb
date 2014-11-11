@@ -1,3 +1,3 @@
-module SeatGeek
+module SeatGeeker
   VERSION = "0.0.3"
 end

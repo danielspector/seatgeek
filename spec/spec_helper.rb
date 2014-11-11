@@ -1,8 +1,8 @@
 require 'webmock/rspec'
 require 'vcr'
-require_relative '../lib/seatgeek'
-require_relative '../lib/seatgeek/events'
-require_relative '../lib/seatgeek/venues'
+require_relative '../lib/seatgeeker'
+require_relative '../lib/seatgeeker/events'
+require_relative '../lib/seatgeeker/venues'
 
 WebMock.disable_net_connect!(allow_localhost: true)
 

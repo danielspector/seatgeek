@@ -1,4 +1,4 @@
-module SeatGeek
+module SeatGeeker
   class Request
     BASE_URI = 'https://api.seatgeek.com/2'
 

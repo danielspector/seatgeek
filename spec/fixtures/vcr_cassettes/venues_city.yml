@@ -12,7 +12,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 200
@@ -21,34 +21,34 @@ http_interactions:
       Server:
       - ngx_openresty
       Date:
-      - Sun, 09 Nov 2014 06:46:19 GMT
+      - Tue, 11 Nov 2014 15:29:59 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '905'
+      - '912'
       Connection:
       - keep-alive
       Etag:
-      - '"a0e4300902feb114fe8e6fef39f0dc834e48af9b"'
+      - '"6783d156bf1d5de7091fd68f3c6c6e6d9f03c764"'
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
-      - "*"
+      - '*'
       Accept-Ranges:
       - bytes
       X-Varnish:
-      - 658700867 658675124
+      - 372581280 372571448
       Age:
-      - '1127'
+      - '278'
       Via:
       - 1.1 varnish
       X-Served-By:
       - lb-ec2-05
     body:
       encoding: UTF-8
-      string: '{"meta":{"per_page":10,"total":941,"geolocation":null,"took":4,"page":1},"venues":[{"city":"New
+      string: '{"meta":{"per_page":10,"total":938,"geolocation":null,"took":2,"page":1},"venues":[{"city":"New
         York","name":"Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
-        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.8992,"postal_code":"10001","location":{"lat":40.6948,"lon":-73.913},"address":"4
         Pennsylvania Plaza","timezone":"America/New_York","id":93},{"city":"New York","name":"Jacob
         K. Javits Convention Center","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/jacob-k-javits-convention-center/tickets/","country":"US","display_location":"New
         York, NY","links":[],"slug":"jacob-k-javits-convention-center","state":"NY","score":0.7895,"postal_code":"10001","location":{"lat":40.7564,"lon":-74.0035},"address":"655
@@ -69,14 +69,14 @@ http_interactions:
         York, NY","links":[],"slug":"randalls-island","state":"NY","score":0.75019,"postal_code":"10035","location":{"lat":40.7932,"lon":-73.9213},"address":"1
         Randalls Island Park","timezone":"America/New_York","id":3179},{"city":"New
         York","name":"Beacon Theatre","extended_address":"New York, NY 10023","url":"https://seatgeek.com/venues/beacon-theatre/tickets/","country":"US","display_location":"New
-        York, NY","links":[],"slug":"beacon-theatre","state":"NY","score":0.74072,"postal_code":"10023","location":{"lat":40.7806,"lon":-73.9813},"address":"2124
+        York, NY","links":[],"slug":"beacon-theatre","state":"NY","score":0.74066,"postal_code":"10023","location":{"lat":40.763,"lon":-73.9826},"address":"2124
         Broadway","timezone":"America/New_York","id":414},{"city":"New York","name":"Roseland
         Ballroom","extended_address":"New York, NY 10019","url":"https://seatgeek.com/venues/roseland-ballroom/tickets/","country":"US","display_location":"New
         York, NY","links":[],"slug":"roseland-ballroom","state":"NY","score":0.71138,"postal_code":"10019","location":{"lat":40.7628,"lon":-73.9833},"address":"239
         West 52nd Street","timezone":"America/New_York","id":234},{"city":"New York","name":"Eugene
         O''Neill Theatre","extended_address":"New York, NY 10019","url":"https://seatgeek.com/venues/eugene-o-neill-theatre/tickets/","country":"US","display_location":"New
-        York, NY","links":[],"slug":"eugene-o-neill-theatre","state":"NY","score":0.70634,"postal_code":"10019","location":{"lat":40.7611,"lon":-73.9858},"address":"230
+        York, NY","links":[],"slug":"eugene-o-neill-theatre","state":"NY","score":0.70631,"postal_code":"10019","location":{"lat":40.7611,"lon":-73.9858},"address":"230
         West 49th Street","timezone":"America/New_York","id":2933}]}'
     http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:47:07 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 11 Nov 2014 15:29:59 GMT
+recorded_with: VCR 2.9.2

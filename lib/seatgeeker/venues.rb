@@ -1,7 +1,7 @@
-require 'seatgeek/request'
+require 'seatgeeker/request'
 
-module SeatGeek
-  class Venues < SeatGeek::Request
+module SeatGeeker
+  class Venues < SeatGeeker::Request
     BASE_PATH = "/venues"
 
     class << self

@@ -1,8 +1,8 @@
-require 'seatgeek/request'
-require 'seatgeek/events'
-require 'seatgeek/performers'
-require 'seatgeek/venues'
-require "seatgeek/version"
+require 'seatgeeker/request'
+require 'seatgeeker/events'
+require 'seatgeeker/performers'
+require 'seatgeeker/venues'
+require "seatgeeker/version"
 require "faraday"
 require "hashie"
 require "pry"

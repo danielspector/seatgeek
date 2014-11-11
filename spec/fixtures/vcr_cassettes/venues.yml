@@ -12,7 +12,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 404
@@ -38,7 +38,7 @@ http_interactions:
       - 1.1 varnish
     body:
       encoding: UTF-8
-      string: "<html><title>404: Not Found</title><body>404: Not Found</body></html>"
+      string: '<html><title>404: Not Found</title><body>404: Not Found</body></html>'
     http_version: 
   recorded_at: Fri, 07 Nov 2014 18:12:43 GMT
 - request:
@@ -53,7 +53,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 200
@@ -74,7 +74,7 @@ http_interactions:
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
-      - "*"
+      - '*'
       X-Varnish:
       - '523193186'
       Age:
@@ -103,7 +103,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 404
@@ -129,7 +129,7 @@ http_interactions:
       - 1.1 varnish
     body:
       encoding: UTF-8
-      string: "<html><title>404: Not Found</title><body>404: Not Found</body></html>"
+      string: '<html><title>404: Not Found</title><body>404: Not Found</body></html>'
     http_version: 
   recorded_at: Sun, 09 Nov 2014 05:54:25 GMT
 - request:
@@ -144,7 +144,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 200
@@ -165,7 +165,7 @@ http_interactions:
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
-      - "*"
+      - '*'
       Accept-Ranges:
       - bytes
       X-Varnish:
@@ -197,7 +197,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - "*/*"
+      - '*/*'
   response:
     status:
       code: 200
@@ -206,7 +206,7 @@ http_interactions:
       Server:
       - ngx_openresty
       Date:
-      - Sun, 09 Nov 2014 06:46:19 GMT
+      - Tue, 11 Nov 2014 15:29:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -214,13 +214,13 @@ http_interactions:
       Connection:
       - keep-alive
       Etag:
-      - '"5ca8a24cbef58065bd7287f916ff75b446d15f5d"'
+      - '"008525a14e63521f1b8271f6c027c2840ef6ab45"'
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
-      - "*"
+      - '*'
       X-Varnish:
-      - '658700861'
+      - '530129558'
       Age:
       - '0'
       Via:
@@ -229,10 +229,10 @@ http_interactions:
       - lb-ec2-05
     body:
       encoding: UTF-8
-      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":2,"page":1},"venues":[{"city":"New
+      string: '{"meta":{"per_page":1,"total":1,"geolocation":null,"took":4,"page":1},"venues":[{"city":"New
         York","name":"Madison Square Garden","extended_address":"New York, NY 10001","url":"https://seatgeek.com/venues/madison-square-garden/tickets/","country":"US","display_location":"New
-        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.89926,"postal_code":"10001","location":{"lat":40.75,"lon":-73.9942},"address":"4
+        York, NY","links":[],"slug":"madison-square-garden","state":"NY","score":0.8992,"postal_code":"10001","location":{"lat":40.6948,"lon":-73.913},"address":"4
         Pennsylvania Plaza","timezone":"America/New_York","id":93}]}'
     http_version: 
-  recorded_at: Sun, 09 Nov 2014 06:47:07 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 11 Nov 2014 15:29:58 GMT
+recorded_with: VCR 2.9.2
